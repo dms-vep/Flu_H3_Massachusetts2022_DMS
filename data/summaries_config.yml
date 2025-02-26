@@ -1,0 +1,54 @@
+# Configuration for creating summary plots across assays.
+
+# --------------------------------------------------------------------------------------
+# Define how to create an integrated set of line plots and heat maps that summarizes
+# antibody escape alongside other assays (eg, functional effects of mutations).
+# --------------------------------------------------------------------------------------
+
+Phenotypes:
+  min_times_seen: 3  # only include mutations with times_seen >= this
+  min_frac_models: 1  # only include mutations in >= this fraction of models
+  alphabet: [A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y] # amino acids to include
+  init_floor_escape_at_zero: false  # initially floor site escape to be >= 0?
+  init_site_escape_stat: sum  # initially show site escape as this statistic
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    sera:  # name each set of antibodies
+      stat: escape_mean  # statistic from CSV to plot
+      positive_color: "#009392"  # teal, positive heatmap color
+      negative_color: "#d0587e"  # rose, negative heatmap color
+      max_at_least: 1  # make heatmap max at least
+      min_at_least: -1  # make heatmap min at least this
+      antibody_list:  # antibodies to include and their CSVs
+        SCH23-y2009-s002: results/antibody_escape/averages/SCH23-y2009-s002_mut_effect.csv
+        SCH23-y2009-s007: results/antibody_escape/averages/SCH23-y2009-s007_mut_effect.csv
+        SCH23-y2016-s037: results/antibody_escape/averages/SCH23-y2016-s037_mut_effect.csv
+        SCH23-y2021-s056: results/antibody_escape/averages/SCH23-y2021-s056_mut_effect.csv
+  other_phenotypes:  # effects of mutations on function
+    MDCKSIAT1 cell entry:  # name of functional selection
+      csv: results/func_effects/averages/MDCKSIAT1_entry_func_effects.csv  # CSV w data
+      stat: effect  # column to plot
+      positive_color: "#009392"  # teal
+      negative_color: "#d0587e"  # rose
+      max_at_least: 1
+      min_at_least: -5
+      init_min_value: -3  # initial min value in slider
+      le_filters:  # only keep entries with indicated column is <= indicated value
+        effect_std: 3
+    pH stability:
+      csv: results/stability/averages/stability_mut_effect.csv  # CSV w data
+      stat: stability_mean  # column to plot
+      positive_color: "#009392"  # teal
+      negative_color: "#d0587e"  # rose
+      max_at_least: 0.5
+      min_at_least: -1
+      init_min_value: -10
+      le_filters:  # only keep entries with indicated column is <= indicated value
+        stability_std: 3
+  mutation_annotation_sliders:
+    nt changes to codon:
+      init_value: 3
+      max_or_min: max
+      slider_binding_range_kwargs:
+        min: 1
+        max: 3
+        step: 1

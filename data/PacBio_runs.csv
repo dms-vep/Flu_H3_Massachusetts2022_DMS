@@ -1,0 +1,4 @@
+﻿library,run,fastq
+A,A_240524,/fh/fast/bloom_j/SR/ngs/pacbio/240524_TimothyYu/r64272e_20240524_195120/2_B01/bc2027--bc2027/m64272e_240526_022007.hifi_reads.bc2027--bc2027.fastq.gz
+B,B_240524,/fh/fast/bloom_j/SR/ngs/pacbio/240524_TimothyYu/r64272e_20240524_195120/2_B01/bc2028--bc2028/m64272e_240526_022007.hifi_reads.bc2028--bc2028.fastq.gz
+

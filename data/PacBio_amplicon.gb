@@ -1,0 +1,46 @@
+LOCUS       PacBio_amplicon        1889 bp ds-DNA     linear       17-MAY-2024
+DEFINITION  PacBio amplicon of MA22 HA.
+FEATURES             Location/Qualifiers
+     termini5        1..47
+     variant_tag5    28..28
+     gene_flank5     48..95
+     gene            96..1607
+     gene_flank3     1608..1748
+     barcode         1802..1817
+     termini3        1818..1889
+     variant_tag3    1844..1844
+
+ORIGIN
+        1 ctagccattc agaggcagcc gagccacstc gctcaacgcg tgccaccatg aaggccatca
+       61 tcgctctttc taatatcctg tgcctggtgt tcgcccagaa gatcccaggc aacgacaaca
+      121 gcaccgccac gctgtgtctg ggccaccacg ccgtgcctaa cggcaccatc gtgaaaacaa
+      181 tcaccaacga cagaatcgag gtgaccaacg ccaccgagct ggtgcagaac tctagcatcg
+      241 gcaaaatctg taatagccct caccagatcc tggacggtgg aaactgcacc ctgatcgacg
+      301 ccctgctggg agatcctcag tgtgacggct ttcagaacaa agagtgggac ctcttcgtgg
+      361 agagatctcg ggccaattcc tcctgctacc cctatgatgt gcccgactac gccagcctgc
+      421 gcagcctggt cgccagcagc ggaactctgg agttcaagaa cgaaagcttc aactggaccg
+      481 gcgtgaagca gaacggcacc agcagcgcct gcaagagagg aagcagcagc tctttcttca
+      541 gcagactgaa ctggctgaca agcctgaaca atatctatcc tgcccagaac gtgaccatgc
+      601 ctaataagga acagttcgat aagctgtaca tctggggcgt tcatcacccc gataccgaca
+      661 agaaccagtt ctccctgttt gcccagtcta gcggcaggat cacagtgagc accaagcgga
+      721 gccagcaagc tgtgatccct aacattggct ctagacccag agtcagagac atccccagcc
+      781 ggatcagcat ctactggacc atcgtgaagc ctggcgacat actgctgatc aactccaccg
+      841 gcaacctgat cgctcctaga ggctacttca aaatccggag cggaaagagc tccatcatga
+      901 gaagtgatgc ccctatcgga aaatgcaaga gcgagtgcat aacccctaac ggctctatcc
+      961 ctaatgataa gcccttccag aacgtgaacc ggatcaccta cggcgcctgc ccaagatacg
+     1021 tgaagcaatc taccctgaaa ctggccacag gcatgcggaa cgtgccagaa aagcagacaa
+     1081 gaggcatctt cggcgccatt gctggcttta tcgagaacgg ctgggagggc atggtggacg
+     1141 gatggtacgg ctttagacac cagaactccg agggcagagg ccaggccgcc gacctgaaat
+     1201 ccacccaagc tgctatcgac cagatctctg gcaagctgaa cagactgatt ggaaagacaa
+     1261 atgagaaatt ccaccagatc gagaaggaat tctctgaagt ggaaggccgg gtgcaggacc
+     1321 tggaaaagta cgtggaagat acaaagatcg acctgtggag ctacaacgcc gagctgctgg
+     1381 tggccctgga aaatcaacac accatcgatc tgacagatag cgaaatgaac aagctgttcg
+     1441 agaagacaaa gaagcagctg agggagaacg ctgaggacat gggcaatgga tgttttaaga
+     1501 tctaccacaa gtgcgacaac gcatgcatcg gctccatcag aaacgagaca tacgaccaca
+     1561 atgtgtacag agacgaggcc ctgaacaaca gattccagat caagggcgtc gaactgaaga
+     1621 gcgggtacaa ggactggatt ctgtggatca gcttcgccat gagctgtttc ctgctttgca
+     1681 tcgccctcct gggcttcatc atgtgggcct gtcagaaagg caacatccgg tgcaacattt
+     1741 gcatctaata ggcgcgccta gttggatcac actctttccc tacacgacgc tcttccgatc
+     1801 tNNNNNNNNN NNNNNNNtct agattcgaga gagaaatgtt cctsgtggag ttccgcgtta
+     1861 cataacttac ggCTCGTACT GGTTGAGCG
+//
