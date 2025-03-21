@@ -166,7 +166,7 @@ antibody_selections:
       use_in_fit: false
      A-240628-SCH23-y2021-s056-0.00495:
       concentration: 0.00495
-      use_in_fit: true
+      use_in_fit: false
      A-240628-SCH23-y2021-s056-0.0066:
       concentration: 0.0066
       use_in_fit: true
