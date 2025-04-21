@@ -206,13 +206,13 @@ antibody_selections:
       use_in_fit: false
      A-240628-SCH23-y2016-s037-0.00363:
       concentration: 0.00363
-      use_in_fit: true
+      use_in_fit: false
      A-240628-SCH23-y2016-s037-0.00484:
       concentration: 0.00484
       use_in_fit: true
      A-240628-SCH23-y2016-s037-0.0121:
       concentration: 0.0121
-      use_in_fit: false
+      use_in_fit: true
 
   B-240822-SCH23-y2016-s037:
     neut_standard_name: neut_standard
@@ -224,7 +224,7 @@ antibody_selections:
     antibody_samples:
      B-240822-SCH23-y2016-s037-0.00121:
       concentration: 0.00121
-      use_in_fit: true
+      use_in_fit: false
      B-240822-SCH23-y2016-s037-0.0048:
       concentration: 0.0048
       use_in_fit: true
