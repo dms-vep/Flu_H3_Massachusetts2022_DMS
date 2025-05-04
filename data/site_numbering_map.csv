@@ -126,24 +126,24 @@ sequential_site,reference_site,sequential_wt,region,rbs_region
 125,125,F,epitope-A,outside RBS
 126,126,N,epitope-A,outside RBS
 127,127,W,epitope-A,outside RBS
-128,128,T,epitope-A,RBS 130-loop
+128,128,T,epitope-A,130-loop
 129,129,G,epitope-A,outside RBS
-130,130,V,epitope-A,RBS 130-loop
-131,131,K,epitope-A,outside RBS
+130,130,V,epitope-A,130-loop
+131,131,K,epitope-A,130-loop
 132,132,Q,epitope-A,outside RBS
-133,133,N,epitope-A,RBS 130-loop
-134,134,G,epitope-A,RBS 130-loop
-135,135,T,epitope-A,RBS 130-loop
-136,136,S,epitope-A,RBS 130-loop
-137,137,S,epitope-A,RBS 130-loop
-138,138,A,epitope-A,RBS 130-loop
+133,133,N,epitope-A,130-loop
+134,134,G,epitope-A,130-loop
+135,135,T,epitope-A,130-loop
+136,136,S,epitope-A,130-loop
+137,137,S,epitope-A,130-loop
+138,138,A,epitope-A,130-loop
 139,139,C,epitope-A,outside RBS
 140,140,K,epitope-A,outside RBS
 141,141,R,epitope-A,outside RBS
 142,142,G,epitope-A,outside RBS
 143,143,S,epitope-A,outside RBS
 144,144,S,epitope-A,outside RBS
-145,145,S,epitope-A,outside RBS
+145,145,S,epitope-A,RBS other
 146,146,S,epitope-A,outside RBS
 147,147,F,HA1,outside RBS
 148,148,F,HA1,outside RBS
@@ -153,12 +153,12 @@ sequential_site,reference_site,sequential_wt,region,rbs_region
 152,152,N,HA1,outside RBS
 153,153,W,HA1,RBS base
 154,154,L,HA1,outside RBS
-155,155,T,epitope-B,RBS 150-loop
-156,156,S,epitope-B,RBS 150-loop
-157,157,L,epitope-B,RBS 150-loop
-158,158,N,epitope-B,RBS 150-loop
-159,159,N,epitope-B,RBS 150-loop
-160,160,I,epitope-B,RBS 150-loop
+155,155,T,epitope-B,150-loop
+156,156,S,epitope-B,150-loop
+157,157,L,epitope-B,150-loop
+158,158,N,epitope-B,150-loop
+159,159,N,epitope-B,150-loop
+160,160,I,epitope-B,150-loop
 161,161,Y,HA1,outside RBS
 162,162,P,HA1,outside RBS
 163,163,A,HA1,outside RBS
@@ -184,19 +184,19 @@ sequential_site,reference_site,sequential_wt,region,rbs_region
 183,183,H,HA1,RBS base
 184,184,H,HA1,outside RBS
 185,185,P,HA1,outside RBS
-186,186,D,epitope-B,RBS 190-loop
+186,186,D,epitope-B,190-helix
 187,187,T,epitope-B,outside RBS
 188,188,D,epitope-B,outside RBS
-189,189,K,epitope-B,RBS 190-loop
-190,190,N,epitope-B,RBS 190-loop
-191,191,Q,epitope-B,RBS 190-loop
-192,192,F,epitope-B,RBS 190-loop
-193,193,S,epitope-B,RBS 190-loop
-194,194,L,epitope-B,RBS 190-loop
+189,189,K,epitope-B,190-helix
+190,190,N,epitope-B,190-helix
+191,191,Q,epitope-B,190-helix
+192,192,F,epitope-B,190-helix
+193,193,S,epitope-B,190-helix
+194,194,L,epitope-B,190-helix
 195,195,F,epitope-B,RBS base
-196,196,A,epitope-B,RBS 190-loop
-197,197,Q,epitope-B,RBS 190-loop
-198,198,S,epitope-B,RBS 190-loop
+196,196,A,epitope-B,190-helix
+197,197,Q,epitope-B,190-helix
+198,198,S,epitope-B,190-helix
 199,199,S,HA1,outside RBS
 200,200,G,HA1,outside RBS
 201,201,R,epitope-D,outside RBS
@@ -219,14 +219,14 @@ sequential_site,reference_site,sequential_wt,region,rbs_region
 218,218,G,epitope-D,outside RBS
 219,219,S,epitope-D,outside RBS
 220,220,R,HA1,outside RBS
-221,221,P,HA1,RBS 220-loop
-222,222,R,HA1,RBS 220-loop
-223,223,V,HA1,RBS 220-loop
-224,224,R,HA1,RBS 220-loop
-225,225,D,HA1,RBS 220-loop
-226,226,I,HA1,RBS 220-loop
-227,227,P,HA1,RBS 220-loop
-228,228,S,HA1,RBS 220-loop
+221,221,P,HA1,220-loop
+222,222,R,HA1,220-loop
+223,223,V,HA1,220-loop
+224,224,R,HA1,220-loop
+225,225,D,HA1,220-loop
+226,226,I,HA1,220-loop
+227,227,P,HA1,220-loop
+228,228,S,HA1,220-loop
 229,229,R,HA1,outside RBS
 230,230,I,HA1,outside RBS
 231,231,S,HA1,outside RBS
