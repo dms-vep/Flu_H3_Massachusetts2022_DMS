@@ -2387,25 +2387,25 @@
 2595,127,W,T,-4.851,0.0,3.5,4,epitope-A,outside RBS
 2596,127,W,V,-4.779,0.0,5.0,4,epitope-A,outside RBS
 2598,127,W,Y,-0.7831,0.7968,4.0,4,epitope-A,outside RBS
-2599,128,T,A,0.07074,0.1879,8.5,4,epitope-A,RBS 130-loop
-2600,128,T,C,-2.281,0.1831,5.5,4,epitope-A,RBS 130-loop
-2601,128,T,D,-0.4002,0.3872,7.5,4,epitope-A,RBS 130-loop
-2602,128,T,E,-0.08056,0.3378,6.75,4,epitope-A,RBS 130-loop
-2603,128,T,F,0.1353,0.2615,5.0,4,epitope-A,RBS 130-loop
-2604,128,T,G,-0.2877,0.2731,6.0,4,epitope-A,RBS 130-loop
-2605,128,T,H,0.4536,0.6129,7.25,4,epitope-A,RBS 130-loop
-2606,128,T,I,0.0678,0.1597,13.25,4,epitope-A,RBS 130-loop
-2607,128,T,K,-0.5102,0.7487,6.5,4,epitope-A,RBS 130-loop
-2608,128,T,L,-0.1006,0.1508,5.5,4,epitope-A,RBS 130-loop
-2609,128,T,M,0.1444,0.397,6.5,4,epitope-A,RBS 130-loop
-2610,128,T,N,-0.0358,0.3878,13.0,4,epitope-A,RBS 130-loop
-2611,128,T,P,0.00305,0.5761,7.0,4,epitope-A,RBS 130-loop
-2612,128,T,Q,0.08127,0.1137,7.5,4,epitope-A,RBS 130-loop
-2613,128,T,R,-0.3065,0.5662,9.75,4,epitope-A,RBS 130-loop
-2614,128,T,S,0.3765,0.3307,7.0,4,epitope-A,RBS 130-loop
-2616,128,T,V,-0.3095,0.4516,6.0,4,epitope-A,RBS 130-loop
-2617,128,T,W,-0.1486,0.6228,4.0,4,epitope-A,RBS 130-loop
-2618,128,T,Y,-0.0406,0.9103,3.0,4,epitope-A,RBS 130-loop
+2599,128,T,A,0.07074,0.1879,8.5,4,epitope-A,130-loop
+2600,128,T,C,-2.281,0.1831,5.5,4,epitope-A,130-loop
+2601,128,T,D,-0.4002,0.3872,7.5,4,epitope-A,130-loop
+2602,128,T,E,-0.08056,0.3378,6.75,4,epitope-A,130-loop
+2603,128,T,F,0.1353,0.2615,5.0,4,epitope-A,130-loop
+2604,128,T,G,-0.2877,0.2731,6.0,4,epitope-A,130-loop
+2605,128,T,H,0.4536,0.6129,7.25,4,epitope-A,130-loop
+2606,128,T,I,0.0678,0.1597,13.25,4,epitope-A,130-loop
+2607,128,T,K,-0.5102,0.7487,6.5,4,epitope-A,130-loop
+2608,128,T,L,-0.1006,0.1508,5.5,4,epitope-A,130-loop
+2609,128,T,M,0.1444,0.397,6.5,4,epitope-A,130-loop
+2610,128,T,N,-0.0358,0.3878,13.0,4,epitope-A,130-loop
+2611,128,T,P,0.00305,0.5761,7.0,4,epitope-A,130-loop
+2612,128,T,Q,0.08127,0.1137,7.5,4,epitope-A,130-loop
+2613,128,T,R,-0.3065,0.5662,9.75,4,epitope-A,130-loop
+2614,128,T,S,0.3765,0.3307,7.0,4,epitope-A,130-loop
+2616,128,T,V,-0.3095,0.4516,6.0,4,epitope-A,130-loop
+2617,128,T,W,-0.1486,0.6228,4.0,4,epitope-A,130-loop
+2618,128,T,Y,-0.0406,0.9103,3.0,4,epitope-A,130-loop
 2619,129,G,A,-0.499,0.2681,8.75,4,epitope-A,outside RBS
 2620,129,G,C,-3.649,0.0,11.0,4,epitope-A,outside RBS
 2621,129,G,D,0.0896,0.33,19.5,4,epitope-A,outside RBS
@@ -2424,44 +2424,44 @@
 2636,129,G,V,-1.085,0.2438,13.5,4,epitope-A,outside RBS
 2637,129,G,W,-0.875,0.453,8.5,4,epitope-A,outside RBS
 2638,129,G,Y,-0.4256,0.3696,5.75,4,epitope-A,outside RBS
-2639,130,V,A,-3.046,0.2012,5.5,4,epitope-A,RBS 130-loop
-2640,130,V,C,-4.129,0.0,7.0,4,epitope-A,RBS 130-loop
-2641,130,V,D,-5.098,0.0,6.5,4,epitope-A,RBS 130-loop
-2642,130,V,E,-4.928,0.0,5.5,4,epitope-A,RBS 130-loop
-2643,130,V,F,-4.851,0.0,7.0,4,epitope-A,RBS 130-loop
-2644,130,V,G,-5.019,0.0,6.5,4,epitope-A,RBS 130-loop
-2645,130,V,H,-4.814,0.0,7.75,4,epitope-A,RBS 130-loop
-2646,130,V,I,-0.07861,0.1296,8.5,4,epitope-A,RBS 130-loop
-2647,130,V,K,-4.838,0.0,6.5,4,epitope-A,RBS 130-loop
-2648,130,V,L,-0.1341,0.5367,10.0,4,epitope-A,RBS 130-loop
-2649,130,V,M,-1.854,0.26,12.0,4,epitope-A,RBS 130-loop
-2650,130,V,N,-4.844,0.0,11.0,4,epitope-A,RBS 130-loop
-2651,130,V,P,-4.864,0.0,11.0,4,epitope-A,RBS 130-loop
-2652,130,V,Q,-4.837,0.0,3.5,4,epitope-A,RBS 130-loop
-2653,130,V,R,-5.031,0.0,5.5,4,epitope-A,RBS 130-loop
-2654,130,V,S,-3.878,0.0,7.5,4,epitope-A,RBS 130-loop
-2655,130,V,T,-1.123,0.4969,6.5,4,epitope-A,RBS 130-loop
-2657,130,V,W,-4.895,0.0,8.0,4,epitope-A,RBS 130-loop
-2658,130,V,Y,-5.066,0.0,5.0,4,epitope-A,RBS 130-loop
-2659,131,K,A,-0.5995,0.4464,5.5,4,epitope-A,outside RBS
-2660,131,K,C,-2.928,0.3103,3.5,4,epitope-A,outside RBS
-2661,131,K,D,-1.649,0.4848,7.0,4,epitope-A,outside RBS
-2662,131,K,E,-1.238,0.3586,7.5,4,epitope-A,outside RBS
-2663,131,K,F,-4.514,0.0,6.75,4,epitope-A,outside RBS
-2664,131,K,G,-0.7196,0.4978,7.0,4,epitope-A,outside RBS
-2665,131,K,H,-0.6913,0.2341,11.0,4,epitope-A,outside RBS
-2666,131,K,I,-1.944,0.473,7.0,4,epitope-A,outside RBS
-2668,131,K,L,-1.179,0.3432,7.0,4,epitope-A,outside RBS
-2669,131,K,M,-0.9014,0.2592,14.0,4,epitope-A,outside RBS
-2670,131,K,N,-0.4403,0.2789,12.5,4,epitope-A,outside RBS
-2671,131,K,P,-4.619,0.0,2.5,4,epitope-A,outside RBS
-2672,131,K,Q,-0.3635,0.472,9.0,4,epitope-A,outside RBS
-2673,131,K,R,0.04755,0.3236,10.0,4,epitope-A,outside RBS
-2674,131,K,S,-1.382,0.6709,3.5,4,epitope-A,outside RBS
-2675,131,K,T,-1.446,0.7403,4.0,4,epitope-A,outside RBS
-2676,131,K,V,-0.8098,0.8261,6.0,4,epitope-A,outside RBS
-2677,131,K,W,-3.993,0.0,14.5,4,epitope-A,outside RBS
-2678,131,K,Y,-3.787,0.4255,4.0,4,epitope-A,outside RBS
+2639,130,V,A,-3.046,0.2012,5.5,4,epitope-A,130-loop
+2640,130,V,C,-4.129,0.0,7.0,4,epitope-A,130-loop
+2641,130,V,D,-5.098,0.0,6.5,4,epitope-A,130-loop
+2642,130,V,E,-4.928,0.0,5.5,4,epitope-A,130-loop
+2643,130,V,F,-4.851,0.0,7.0,4,epitope-A,130-loop
+2644,130,V,G,-5.019,0.0,6.5,4,epitope-A,130-loop
+2645,130,V,H,-4.814,0.0,7.75,4,epitope-A,130-loop
+2646,130,V,I,-0.07861,0.1296,8.5,4,epitope-A,130-loop
+2647,130,V,K,-4.838,0.0,6.5,4,epitope-A,130-loop
+2648,130,V,L,-0.1341,0.5367,10.0,4,epitope-A,130-loop
+2649,130,V,M,-1.854,0.26,12.0,4,epitope-A,130-loop
+2650,130,V,N,-4.844,0.0,11.0,4,epitope-A,130-loop
+2651,130,V,P,-4.864,0.0,11.0,4,epitope-A,130-loop
+2652,130,V,Q,-4.837,0.0,3.5,4,epitope-A,130-loop
+2653,130,V,R,-5.031,0.0,5.5,4,epitope-A,130-loop
+2654,130,V,S,-3.878,0.0,7.5,4,epitope-A,130-loop
+2655,130,V,T,-1.123,0.4969,6.5,4,epitope-A,130-loop
+2657,130,V,W,-4.895,0.0,8.0,4,epitope-A,130-loop
+2658,130,V,Y,-5.066,0.0,5.0,4,epitope-A,130-loop
+2659,131,K,A,-0.5995,0.4464,5.5,4,epitope-A,130-loop
+2660,131,K,C,-2.928,0.3103,3.5,4,epitope-A,130-loop
+2661,131,K,D,-1.649,0.4848,7.0,4,epitope-A,130-loop
+2662,131,K,E,-1.238,0.3586,7.5,4,epitope-A,130-loop
+2663,131,K,F,-4.514,0.0,6.75,4,epitope-A,130-loop
+2664,131,K,G,-0.7196,0.4978,7.0,4,epitope-A,130-loop
+2665,131,K,H,-0.6913,0.2341,11.0,4,epitope-A,130-loop
+2666,131,K,I,-1.944,0.473,7.0,4,epitope-A,130-loop
+2668,131,K,L,-1.179,0.3432,7.0,4,epitope-A,130-loop
+2669,131,K,M,-0.9014,0.2592,14.0,4,epitope-A,130-loop
+2670,131,K,N,-0.4403,0.2789,12.5,4,epitope-A,130-loop
+2671,131,K,P,-4.619,0.0,2.5,4,epitope-A,130-loop
+2672,131,K,Q,-0.3635,0.472,9.0,4,epitope-A,130-loop
+2673,131,K,R,0.04755,0.3236,10.0,4,epitope-A,130-loop
+2674,131,K,S,-1.382,0.6709,3.5,4,epitope-A,130-loop
+2675,131,K,T,-1.446,0.7403,4.0,4,epitope-A,130-loop
+2676,131,K,V,-0.8098,0.8261,6.0,4,epitope-A,130-loop
+2677,131,K,W,-3.993,0.0,14.5,4,epitope-A,130-loop
+2678,131,K,Y,-3.787,0.4255,4.0,4,epitope-A,130-loop
 2679,132,Q,*,-4.664,0.0,5.0,4,epitope-A,outside RBS
 2680,132,Q,A,-0.6704,0.4042,6.5,4,epitope-A,outside RBS
 2681,132,Q,C,-4.334,0.0,5.0,4,epitope-A,outside RBS
@@ -2482,120 +2482,120 @@
 2697,132,Q,V,0.2312,0.2654,6.5,4,epitope-A,outside RBS
 2698,132,Q,W,-0.8872,0.8611,5.5,4,epitope-A,outside RBS
 2699,132,Q,Y,-0.5878,0.2655,10.25,4,epitope-A,outside RBS
-2700,133,N,A,-0.6363,0.3073,5.0,4,epitope-A,RBS 130-loop
-2701,133,N,C,-4.41,0.0,5.0,4,epitope-A,RBS 130-loop
-2702,133,N,D,0.3227,0.09964,9.0,4,epitope-A,RBS 130-loop
-2703,133,N,E,-0.3573,0.2606,4.5,4,epitope-A,RBS 130-loop
-2704,133,N,F,0.1251,0.05292,5.5,4,epitope-A,RBS 130-loop
-2705,133,N,G,-0.4947,0.07528,6.5,4,epitope-A,RBS 130-loop
-2706,133,N,H,-0.1889,0.2375,6.0,4,epitope-A,RBS 130-loop
-2707,133,N,I,-4.78,0.0,9.5,4,epitope-A,RBS 130-loop
-2708,133,N,K,-2.925,0.1615,12.0,4,epitope-A,RBS 130-loop
-2709,133,N,L,-1.063,0.8533,6.0,4,epitope-A,RBS 130-loop
-2710,133,N,M,-0.6909,0.2262,8.0,4,epitope-A,RBS 130-loop
-2712,133,N,P,-4.684,0.0,5.0,4,epitope-A,RBS 130-loop
-2713,133,N,Q,-1.121,0.2447,6.5,4,epitope-A,RBS 130-loop
-2714,133,N,R,-2.59,0.3523,9.0,4,epitope-A,RBS 130-loop
-2715,133,N,S,-0.3016,0.164,5.5,4,epitope-A,RBS 130-loop
-2716,133,N,T,-0.9775,0.2726,4.5,4,epitope-A,RBS 130-loop
-2717,133,N,V,-4.675,0.0,7.0,4,epitope-A,RBS 130-loop
-2718,133,N,W,-0.9285,0.3179,9.5,4,epitope-A,RBS 130-loop
-2719,133,N,Y,0.4348,0.388,4.5,4,epitope-A,RBS 130-loop
-2720,134,G,A,-4.769,0.0,2.5,4,epitope-A,RBS 130-loop
-2721,134,G,C,-4.702,0.0,6.0,4,epitope-A,RBS 130-loop
-2722,134,G,D,-4.834,0.0,18.25,4,epitope-A,RBS 130-loop
-2723,134,G,E,-2.582,1.674,2.0,4,epitope-A,RBS 130-loop
-2724,134,G,F,-4.89,0.0,7.75,4,epitope-A,RBS 130-loop
-2726,134,G,H,-4.817,0.0,6.75,4,epitope-A,RBS 130-loop
-2727,134,G,I,-4.795,0.0,7.25,4,epitope-A,RBS 130-loop
-2728,134,G,K,-4.699,0.0,5.0,4,epitope-A,RBS 130-loop
-2729,134,G,L,-4.952,0.0,7.0,4,epitope-A,RBS 130-loop
-2730,134,G,M,-4.748,0.0,7.0,4,epitope-A,RBS 130-loop
-2731,134,G,N,-4.851,0.0,8.5,4,epitope-A,RBS 130-loop
-2732,134,G,P,-4.842,0.0,6.5,4,epitope-A,RBS 130-loop
-2733,134,G,Q,-5.037,0.0,4.0,4,epitope-A,RBS 130-loop
-2734,134,G,R,-4.88,0.0,3.5,4,epitope-A,RBS 130-loop
-2735,134,G,S,-4.535,0.0,9.5,4,epitope-A,RBS 130-loop
-2736,134,G,T,-4.782,0.0,5.0,4,epitope-A,RBS 130-loop
-2737,134,G,V,-4.842,0.0,5.0,4,epitope-A,RBS 130-loop
-2738,134,G,W,-4.788,0.0,4.25,4,epitope-A,RBS 130-loop
-2739,134,G,Y,-4.603,0.0,3.5,4,epitope-A,RBS 130-loop
-2740,135,T,A,-0.3741,0.09354,6.5,4,epitope-A,RBS 130-loop
-2741,135,T,C,-1.036,0.1343,5.75,4,epitope-A,RBS 130-loop
-2742,135,T,D,-0.3251,0.0711,6.5,4,epitope-A,RBS 130-loop
-2743,135,T,E,-0.4815,0.4879,8.0,4,epitope-A,RBS 130-loop
-2744,135,T,F,0.1976,0.3751,6.5,4,epitope-A,RBS 130-loop
-2745,135,T,G,-0.4821,0.0746,12.5,4,epitope-A,RBS 130-loop
-2746,135,T,H,-0.0045,0.423,7.75,4,epitope-A,RBS 130-loop
-2747,135,T,I,-0.2065,0.3325,10.25,4,epitope-A,RBS 130-loop
-2748,135,T,K,-0.8355,0.01946,3.5,4,epitope-A,RBS 130-loop
-2749,135,T,L,0.4042,0.1859,10.5,4,epitope-A,RBS 130-loop
-2750,135,T,M,0.0769,0.1455,5.0,4,epitope-A,RBS 130-loop
-2751,135,T,N,-0.0232,0.3697,7.75,4,epitope-A,RBS 130-loop
-2752,135,T,P,-3.318,0.5474,6.0,4,epitope-A,RBS 130-loop
-2753,135,T,Q,0.124,0.2456,7.5,4,epitope-A,RBS 130-loop
-2754,135,T,R,-0.8086,0.1046,6.0,4,epitope-A,RBS 130-loop
-2755,135,T,S,-0.06257,0.1644,5.5,4,epitope-A,RBS 130-loop
-2757,135,T,V,-0.4602,0.2056,6.0,4,epitope-A,RBS 130-loop
-2758,135,T,W,-0.1883,0.1727,9.0,4,epitope-A,RBS 130-loop
-2759,135,T,Y,0.1779,0.513,5.0,4,epitope-A,RBS 130-loop
-2760,136,S,A,-4.813,0.0,6.0,4,epitope-A,RBS 130-loop
-2761,136,S,C,-4.617,0.0,3.25,4,epitope-A,RBS 130-loop
-2762,136,S,D,-4.775,0.0,4.5,4,epitope-A,RBS 130-loop
-2763,136,S,E,-4.897,0.0,11.25,4,epitope-A,RBS 130-loop
-2764,136,S,F,-4.973,0.0,6.75,4,epitope-A,RBS 130-loop
-2765,136,S,G,-4.753,0.0,12.0,4,epitope-A,RBS 130-loop
-2766,136,S,H,-4.89,0.0,5.0,4,epitope-A,RBS 130-loop
-2767,136,S,I,-4.894,0.0,16.0,4,epitope-A,RBS 130-loop
-2768,136,S,K,-4.869,0.0,5.0,4,epitope-A,RBS 130-loop
-2769,136,S,L,-4.861,0.0,9.0,4,epitope-A,RBS 130-loop
-2770,136,S,M,-4.854,0.0,7.0,4,epitope-A,RBS 130-loop
-2771,136,S,N,-4.877,0.0,16.0,4,epitope-A,RBS 130-loop
-2772,136,S,P,-4.692,0.0,6.0,4,epitope-A,RBS 130-loop
-2773,136,S,Q,-4.938,0.0,4.5,4,epitope-A,RBS 130-loop
-2774,136,S,R,-4.869,0.0,7.75,4,epitope-A,RBS 130-loop
-2776,136,S,T,-1.846,0.2532,6.5,4,epitope-A,RBS 130-loop
-2777,136,S,V,-4.732,0.0,5.5,4,epitope-A,RBS 130-loop
-2778,136,S,W,-4.947,0.0,5.5,4,epitope-A,RBS 130-loop
-2779,136,S,Y,-4.723,0.0,5.0,4,epitope-A,RBS 130-loop
-2780,137,S,A,-0.1684,0.3659,5.5,4,epitope-A,RBS 130-loop
-2781,137,S,C,-1.589,0.208,5.5,4,epitope-A,RBS 130-loop
-2782,137,S,D,-4.694,0.0,9.5,4,epitope-A,RBS 130-loop
-2783,137,S,E,-4.454,0.0,5.0,4,epitope-A,RBS 130-loop
-2784,137,S,F,-0.8077,0.1695,6.5,4,epitope-A,RBS 130-loop
-2785,137,S,G,-0.03475,0.3464,7.0,4,epitope-A,RBS 130-loop
-2786,137,S,H,-4.27,0.0,4.0,4,epitope-A,RBS 130-loop
-2787,137,S,I,-0.4868,0.2393,10.5,4,epitope-A,RBS 130-loop
-2788,137,S,K,-0.2613,0.1249,6.5,4,epitope-A,RBS 130-loop
-2789,137,S,L,-0.02152,0.304,2.5,4,epitope-A,RBS 130-loop
-2790,137,S,M,0.3315,0.4144,6.5,4,epitope-A,RBS 130-loop
-2791,137,S,N,-0.2558,0.4304,10.25,4,epitope-A,RBS 130-loop
-2792,137,S,P,-4.973,0.0,6.0,4,epitope-A,RBS 130-loop
-2793,137,S,Q,-0.6939,0.1445,3.5,4,epitope-A,RBS 130-loop
-2794,137,S,R,0.0555,0.4371,12.75,4,epitope-A,RBS 130-loop
-2796,137,S,T,-0.6372,0.495,5.5,4,epitope-A,RBS 130-loop
-2797,137,S,V,0.04174,0.2008,4.0,4,epitope-A,RBS 130-loop
-2798,137,S,W,-0.6676,0.3497,7.0,4,epitope-A,RBS 130-loop
-2799,137,S,Y,-0.5789,0.2615,6.5,4,epitope-A,RBS 130-loop
-2801,138,A,C,-1.546,1.445,2.5,4,epitope-A,RBS 130-loop
-2802,138,A,D,-5.023,0.0,13.25,4,epitope-A,RBS 130-loop
-2803,138,A,E,-4.787,0.0,9.0,4,epitope-A,RBS 130-loop
-2804,138,A,F,-4.909,0.0,5.5,4,epitope-A,RBS 130-loop
-2805,138,A,G,-1.961,0.1724,7.75,4,epitope-A,RBS 130-loop
-2806,138,A,H,-4.963,0.0,9.0,4,epitope-A,RBS 130-loop
-2807,138,A,I,-4.755,0.0,9.5,4,epitope-A,RBS 130-loop
-2808,138,A,K,-4.678,1.977,6.0,4,epitope-A,RBS 130-loop
-2809,138,A,L,-4.822,0.0,5.75,4,epitope-A,RBS 130-loop
-2810,138,A,M,-4.713,0.0,4.0,4,epitope-A,RBS 130-loop
-2811,138,A,N,-5.043,0.0,6.5,4,epitope-A,RBS 130-loop
-2812,138,A,P,-4.85,0.0,8.75,4,epitope-A,RBS 130-loop
-2813,138,A,Q,-4.745,0.0,6.5,4,epitope-A,RBS 130-loop
-2814,138,A,R,-4.812,0.0,7.5,4,epitope-A,RBS 130-loop
-2815,138,A,S,-0.7551,0.1023,9.5,4,epitope-A,RBS 130-loop
-2816,138,A,T,-4.761,0.0,11.25,4,epitope-A,RBS 130-loop
-2817,138,A,V,-4.732,0.0,14.5,4,epitope-A,RBS 130-loop
-2818,138,A,W,-5.043,0.0,3.5,4,epitope-A,RBS 130-loop
-2819,138,A,Y,-4.769,0.0,9.0,4,epitope-A,RBS 130-loop
+2700,133,N,A,-0.6363,0.3073,5.0,4,epitope-A,130-loop
+2701,133,N,C,-4.41,0.0,5.0,4,epitope-A,130-loop
+2702,133,N,D,0.3227,0.09964,9.0,4,epitope-A,130-loop
+2703,133,N,E,-0.3573,0.2606,4.5,4,epitope-A,130-loop
+2704,133,N,F,0.1251,0.05292,5.5,4,epitope-A,130-loop
+2705,133,N,G,-0.4947,0.07528,6.5,4,epitope-A,130-loop
+2706,133,N,H,-0.1889,0.2375,6.0,4,epitope-A,130-loop
+2707,133,N,I,-4.78,0.0,9.5,4,epitope-A,130-loop
+2708,133,N,K,-2.925,0.1615,12.0,4,epitope-A,130-loop
+2709,133,N,L,-1.063,0.8533,6.0,4,epitope-A,130-loop
+2710,133,N,M,-0.6909,0.2262,8.0,4,epitope-A,130-loop
+2712,133,N,P,-4.684,0.0,5.0,4,epitope-A,130-loop
+2713,133,N,Q,-1.121,0.2447,6.5,4,epitope-A,130-loop
+2714,133,N,R,-2.59,0.3523,9.0,4,epitope-A,130-loop
+2715,133,N,S,-0.3016,0.164,5.5,4,epitope-A,130-loop
+2716,133,N,T,-0.9775,0.2726,4.5,4,epitope-A,130-loop
+2717,133,N,V,-4.675,0.0,7.0,4,epitope-A,130-loop
+2718,133,N,W,-0.9285,0.3179,9.5,4,epitope-A,130-loop
+2719,133,N,Y,0.4348,0.388,4.5,4,epitope-A,130-loop
+2720,134,G,A,-4.769,0.0,2.5,4,epitope-A,130-loop
+2721,134,G,C,-4.702,0.0,6.0,4,epitope-A,130-loop
+2722,134,G,D,-4.834,0.0,18.25,4,epitope-A,130-loop
+2723,134,G,E,-2.582,1.674,2.0,4,epitope-A,130-loop
+2724,134,G,F,-4.89,0.0,7.75,4,epitope-A,130-loop
+2726,134,G,H,-4.817,0.0,6.75,4,epitope-A,130-loop
+2727,134,G,I,-4.795,0.0,7.25,4,epitope-A,130-loop
+2728,134,G,K,-4.699,0.0,5.0,4,epitope-A,130-loop
+2729,134,G,L,-4.952,0.0,7.0,4,epitope-A,130-loop
+2730,134,G,M,-4.748,0.0,7.0,4,epitope-A,130-loop
+2731,134,G,N,-4.851,0.0,8.5,4,epitope-A,130-loop
+2732,134,G,P,-4.842,0.0,6.5,4,epitope-A,130-loop
+2733,134,G,Q,-5.037,0.0,4.0,4,epitope-A,130-loop
+2734,134,G,R,-4.88,0.0,3.5,4,epitope-A,130-loop
+2735,134,G,S,-4.535,0.0,9.5,4,epitope-A,130-loop
+2736,134,G,T,-4.782,0.0,5.0,4,epitope-A,130-loop
+2737,134,G,V,-4.842,0.0,5.0,4,epitope-A,130-loop
+2738,134,G,W,-4.788,0.0,4.25,4,epitope-A,130-loop
+2739,134,G,Y,-4.603,0.0,3.5,4,epitope-A,130-loop
+2740,135,T,A,-0.3741,0.09354,6.5,4,epitope-A,130-loop
+2741,135,T,C,-1.036,0.1343,5.75,4,epitope-A,130-loop
+2742,135,T,D,-0.3251,0.0711,6.5,4,epitope-A,130-loop
+2743,135,T,E,-0.4815,0.4879,8.0,4,epitope-A,130-loop
+2744,135,T,F,0.1976,0.3751,6.5,4,epitope-A,130-loop
+2745,135,T,G,-0.4821,0.0746,12.5,4,epitope-A,130-loop
+2746,135,T,H,-0.0045,0.423,7.75,4,epitope-A,130-loop
+2747,135,T,I,-0.2065,0.3325,10.25,4,epitope-A,130-loop
+2748,135,T,K,-0.8355,0.01946,3.5,4,epitope-A,130-loop
+2749,135,T,L,0.4042,0.1859,10.5,4,epitope-A,130-loop
+2750,135,T,M,0.0769,0.1455,5.0,4,epitope-A,130-loop
+2751,135,T,N,-0.0232,0.3697,7.75,4,epitope-A,130-loop
+2752,135,T,P,-3.318,0.5474,6.0,4,epitope-A,130-loop
+2753,135,T,Q,0.124,0.2456,7.5,4,epitope-A,130-loop
+2754,135,T,R,-0.8086,0.1046,6.0,4,epitope-A,130-loop
+2755,135,T,S,-0.06257,0.1644,5.5,4,epitope-A,130-loop
+2757,135,T,V,-0.4602,0.2056,6.0,4,epitope-A,130-loop
+2758,135,T,W,-0.1883,0.1727,9.0,4,epitope-A,130-loop
+2759,135,T,Y,0.1779,0.513,5.0,4,epitope-A,130-loop
+2760,136,S,A,-4.813,0.0,6.0,4,epitope-A,130-loop
+2761,136,S,C,-4.617,0.0,3.25,4,epitope-A,130-loop
+2762,136,S,D,-4.775,0.0,4.5,4,epitope-A,130-loop
+2763,136,S,E,-4.897,0.0,11.25,4,epitope-A,130-loop
+2764,136,S,F,-4.973,0.0,6.75,4,epitope-A,130-loop
+2765,136,S,G,-4.753,0.0,12.0,4,epitope-A,130-loop
+2766,136,S,H,-4.89,0.0,5.0,4,epitope-A,130-loop
+2767,136,S,I,-4.894,0.0,16.0,4,epitope-A,130-loop
+2768,136,S,K,-4.869,0.0,5.0,4,epitope-A,130-loop
+2769,136,S,L,-4.861,0.0,9.0,4,epitope-A,130-loop
+2770,136,S,M,-4.854,0.0,7.0,4,epitope-A,130-loop
+2771,136,S,N,-4.877,0.0,16.0,4,epitope-A,130-loop
+2772,136,S,P,-4.692,0.0,6.0,4,epitope-A,130-loop
+2773,136,S,Q,-4.938,0.0,4.5,4,epitope-A,130-loop
+2774,136,S,R,-4.869,0.0,7.75,4,epitope-A,130-loop
+2776,136,S,T,-1.846,0.2532,6.5,4,epitope-A,130-loop
+2777,136,S,V,-4.732,0.0,5.5,4,epitope-A,130-loop
+2778,136,S,W,-4.947,0.0,5.5,4,epitope-A,130-loop
+2779,136,S,Y,-4.723,0.0,5.0,4,epitope-A,130-loop
+2780,137,S,A,-0.1684,0.3659,5.5,4,epitope-A,130-loop
+2781,137,S,C,-1.589,0.208,5.5,4,epitope-A,130-loop
+2782,137,S,D,-4.694,0.0,9.5,4,epitope-A,130-loop
+2783,137,S,E,-4.454,0.0,5.0,4,epitope-A,130-loop
+2784,137,S,F,-0.8077,0.1695,6.5,4,epitope-A,130-loop
+2785,137,S,G,-0.03475,0.3464,7.0,4,epitope-A,130-loop
+2786,137,S,H,-4.27,0.0,4.0,4,epitope-A,130-loop
+2787,137,S,I,-0.4868,0.2393,10.5,4,epitope-A,130-loop
+2788,137,S,K,-0.2613,0.1249,6.5,4,epitope-A,130-loop
+2789,137,S,L,-0.02152,0.304,2.5,4,epitope-A,130-loop
+2790,137,S,M,0.3315,0.4144,6.5,4,epitope-A,130-loop
+2791,137,S,N,-0.2558,0.4304,10.25,4,epitope-A,130-loop
+2792,137,S,P,-4.973,0.0,6.0,4,epitope-A,130-loop
+2793,137,S,Q,-0.6939,0.1445,3.5,4,epitope-A,130-loop
+2794,137,S,R,0.0555,0.4371,12.75,4,epitope-A,130-loop
+2796,137,S,T,-0.6372,0.495,5.5,4,epitope-A,130-loop
+2797,137,S,V,0.04174,0.2008,4.0,4,epitope-A,130-loop
+2798,137,S,W,-0.6676,0.3497,7.0,4,epitope-A,130-loop
+2799,137,S,Y,-0.5789,0.2615,6.5,4,epitope-A,130-loop
+2801,138,A,C,-1.546,1.445,2.5,4,epitope-A,130-loop
+2802,138,A,D,-5.023,0.0,13.25,4,epitope-A,130-loop
+2803,138,A,E,-4.787,0.0,9.0,4,epitope-A,130-loop
+2804,138,A,F,-4.909,0.0,5.5,4,epitope-A,130-loop
+2805,138,A,G,-1.961,0.1724,7.75,4,epitope-A,130-loop
+2806,138,A,H,-4.963,0.0,9.0,4,epitope-A,130-loop
+2807,138,A,I,-4.755,0.0,9.5,4,epitope-A,130-loop
+2808,138,A,K,-4.678,1.977,6.0,4,epitope-A,130-loop
+2809,138,A,L,-4.822,0.0,5.75,4,epitope-A,130-loop
+2810,138,A,M,-4.713,0.0,4.0,4,epitope-A,130-loop
+2811,138,A,N,-5.043,0.0,6.5,4,epitope-A,130-loop
+2812,138,A,P,-4.85,0.0,8.75,4,epitope-A,130-loop
+2813,138,A,Q,-4.745,0.0,6.5,4,epitope-A,130-loop
+2814,138,A,R,-4.812,0.0,7.5,4,epitope-A,130-loop
+2815,138,A,S,-0.7551,0.1023,9.5,4,epitope-A,130-loop
+2816,138,A,T,-4.761,0.0,11.25,4,epitope-A,130-loop
+2817,138,A,V,-4.732,0.0,14.5,4,epitope-A,130-loop
+2818,138,A,W,-5.043,0.0,3.5,4,epitope-A,130-loop
+2819,138,A,Y,-4.769,0.0,9.0,4,epitope-A,130-loop
 2820,139,C,*,-4.44,0.0,3.0,2,epitope-A,outside RBS
 2821,139,C,A,-4.907,0.0,3.0,2,epitope-A,outside RBS
 2823,139,C,D,-4.716,0.0,4.0,4,epitope-A,outside RBS
@@ -2712,24 +2712,24 @@
 2941,144,S,V,0.05829,0.228,6.0,4,epitope-A,outside RBS
 2942,144,S,W,0.0241,0.2006,7.5,4,epitope-A,outside RBS
 2943,144,S,Y,-0.4251,0.2196,5.5,4,epitope-A,outside RBS
-2944,145,S,A,-0.03012,0.09148,5.5,4,epitope-A,outside RBS
-2945,145,S,C,-3.643,0.0,3.75,4,epitope-A,outside RBS
-2946,145,S,D,-3.628,0.131,3.5,4,epitope-A,outside RBS
-2947,145,S,E,-5.002,0.0,6.0,4,epitope-A,outside RBS
-2948,145,S,F,-0.9339,0.212,6.25,4,epitope-A,outside RBS
-2949,145,S,G,-0.7466,0.3674,7.0,4,epitope-A,outside RBS
-2950,145,S,H,-0.6627,0.6202,2.0,4,epitope-A,outside RBS
-2951,145,S,I,-0.8162,0.1639,9.0,4,epitope-A,outside RBS
-2952,145,S,K,-0.7864,0.1836,6.75,4,epitope-A,outside RBS
-2953,145,S,L,-0.6291,0.4011,8.5,4,epitope-A,outside RBS
-2954,145,S,M,-0.5671,0.1317,7.0,4,epitope-A,outside RBS
-2955,145,S,N,-0.1923,0.1669,12.0,4,epitope-A,outside RBS
-2957,145,S,Q,-0.3997,0.6586,6.5,4,epitope-A,outside RBS
-2958,145,S,R,-0.3653,0.2236,12.5,4,epitope-A,outside RBS
-2960,145,S,T,-0.6872,0.3365,4.0,4,epitope-A,outside RBS
-2961,145,S,V,-0.2732,0.3234,8.5,4,epitope-A,outside RBS
-2962,145,S,W,-2.484,0.3297,7.0,4,epitope-A,outside RBS
-2963,145,S,Y,-1.69,0.253,6.25,4,epitope-A,outside RBS
+2944,145,S,A,-0.03012,0.09148,5.5,4,epitope-A,RBS other
+2945,145,S,C,-3.643,0.0,3.75,4,epitope-A,RBS other
+2946,145,S,D,-3.628,0.131,3.5,4,epitope-A,RBS other
+2947,145,S,E,-5.002,0.0,6.0,4,epitope-A,RBS other
+2948,145,S,F,-0.9339,0.212,6.25,4,epitope-A,RBS other
+2949,145,S,G,-0.7466,0.3674,7.0,4,epitope-A,RBS other
+2950,145,S,H,-0.6627,0.6202,2.0,4,epitope-A,RBS other
+2951,145,S,I,-0.8162,0.1639,9.0,4,epitope-A,RBS other
+2952,145,S,K,-0.7864,0.1836,6.75,4,epitope-A,RBS other
+2953,145,S,L,-0.6291,0.4011,8.5,4,epitope-A,RBS other
+2954,145,S,M,-0.5671,0.1317,7.0,4,epitope-A,RBS other
+2955,145,S,N,-0.1923,0.1669,12.0,4,epitope-A,RBS other
+2957,145,S,Q,-0.3997,0.6586,6.5,4,epitope-A,RBS other
+2958,145,S,R,-0.3653,0.2236,12.5,4,epitope-A,RBS other
+2960,145,S,T,-0.6872,0.3365,4.0,4,epitope-A,RBS other
+2961,145,S,V,-0.2732,0.3234,8.5,4,epitope-A,RBS other
+2962,145,S,W,-2.484,0.3297,7.0,4,epitope-A,RBS other
+2963,145,S,Y,-1.69,0.253,6.25,4,epitope-A,RBS other
 2965,146,S,A,0.4688,0.1035,7.5,4,epitope-A,outside RBS
 2966,146,S,C,-1.657,0.6776,6.5,4,epitope-A,outside RBS
 2967,146,S,D,0.05905,0.7305,6.5,4,epitope-A,outside RBS
@@ -2900,120 +2900,120 @@
 3149,154,L,V,-0.2581,0.04564,7.0,4,HA1,outside RBS
 3150,154,L,W,-4.768,0.0,10.5,4,HA1,outside RBS
 3151,154,L,Y,-4.898,0.0,6.5,4,HA1,outside RBS
-3153,155,T,A,-0.8945,0.1717,10.0,4,epitope-B,RBS 150-loop
-3154,155,T,C,-4.17,0.0,3.5,4,epitope-B,RBS 150-loop
-3155,155,T,D,-4.713,0.0,4.5,4,epitope-B,RBS 150-loop
-3156,155,T,E,-4.754,0.0,4.0,4,epitope-B,RBS 150-loop
-3157,155,T,F,-2.882,0.5118,4.0,4,epitope-B,RBS 150-loop
-3158,155,T,G,-2.656,1.496,3.0,4,epitope-B,RBS 150-loop
-3159,155,T,H,-2.418,0.4774,7.0,4,epitope-B,RBS 150-loop
-3160,155,T,I,-3.66,0.0,13.5,4,epitope-B,RBS 150-loop
-3161,155,T,K,-4.776,0.0,5.5,4,epitope-B,RBS 150-loop
-3162,155,T,L,-4.866,0.0,3.5,4,epitope-B,RBS 150-loop
-3163,155,T,M,-4.854,0.0,6.5,4,epitope-B,RBS 150-loop
-3164,155,T,N,-3.987,0.0,4.0,4,epitope-B,RBS 150-loop
-3165,155,T,P,-4.877,0.0,5.5,4,epitope-B,RBS 150-loop
-3166,155,T,Q,-4.821,0.0,5.5,4,epitope-B,RBS 150-loop
-3167,155,T,R,-5.043,0.0,4.5,4,epitope-B,RBS 150-loop
-3168,155,T,S,-0.506,0.09541,5.0,4,epitope-B,RBS 150-loop
-3170,155,T,V,-0.8397,0.1664,7.0,4,epitope-B,RBS 150-loop
-3171,155,T,W,-4.901,0.0,6.5,4,epitope-B,RBS 150-loop
-3172,155,T,Y,-2.458,0.2385,3.0,4,epitope-B,RBS 150-loop
-3174,156,S,A,0.4083,0.3622,3.5,4,epitope-B,RBS 150-loop
-3175,156,S,C,-1.227,0.3463,6.5,4,epitope-B,RBS 150-loop
-3176,156,S,D,-2.526,0.5161,11.5,4,epitope-B,RBS 150-loop
-3177,156,S,E,-1.489,0.1941,6.0,4,epitope-B,RBS 150-loop
-3178,156,S,F,-2.724,0.2489,6.75,4,epitope-B,RBS 150-loop
-3179,156,S,G,-0.766,0.5836,7.75,4,epitope-B,RBS 150-loop
-3180,156,S,H,-1.605,0.2021,5.0,4,epitope-B,RBS 150-loop
-3181,156,S,I,-2.956,0.6344,11.5,4,epitope-B,RBS 150-loop
-3182,156,S,K,-0.188,0.2184,9.5,4,epitope-B,RBS 150-loop
-3183,156,S,L,-2.718,0.6992,3.5,4,epitope-B,RBS 150-loop
-3184,156,S,M,-0.6619,0.3048,9.75,4,epitope-B,RBS 150-loop
-3185,156,S,N,-1.48,0.4412,10.0,4,epitope-B,RBS 150-loop
-3186,156,S,P,-4.894,0.0,2.75,4,epitope-B,RBS 150-loop
-3187,156,S,Q,-0.02245,0.2158,7.0,4,epitope-B,RBS 150-loop
-3188,156,S,R,-1.317,0.2032,13.0,4,epitope-B,RBS 150-loop
-3190,156,S,T,-0.6634,0.06768,7.0,4,epitope-B,RBS 150-loop
-3191,156,S,V,-0.2896,0.386,6.5,4,epitope-B,RBS 150-loop
-3192,156,S,W,-4.258,0.0,7.25,4,epitope-B,RBS 150-loop
-3193,156,S,Y,-2.481,0.2234,10.5,4,epitope-B,RBS 150-loop
-3195,157,L,A,0.000825,0.2092,4.5,4,epitope-B,RBS 150-loop
-3196,157,L,C,-1.547,0.243,6.5,4,epitope-B,RBS 150-loop
-3197,157,L,D,-0.8376,0.8639,7.0,4,epitope-B,RBS 150-loop
-3198,157,L,E,-0.2085,0.2705,9.5,4,epitope-B,RBS 150-loop
-3199,157,L,F,-0.6667,0.8643,5.5,4,epitope-B,RBS 150-loop
-3200,157,L,G,-0.7487,0.125,6.5,4,epitope-B,RBS 150-loop
-3201,157,L,H,0.08228,0.09416,7.0,4,epitope-B,RBS 150-loop
-3202,157,L,I,-0.2749,0.2487,9.75,4,epitope-B,RBS 150-loop
-3203,157,L,K,-0.1436,0.6821,6.0,4,epitope-B,RBS 150-loop
-3205,157,L,M,-0.4071,0.2877,8.75,4,epitope-B,RBS 150-loop
-3206,157,L,N,-0.569,0.4889,10.0,4,epitope-B,RBS 150-loop
-3207,157,L,P,-1.131,0.3634,10.75,4,epitope-B,RBS 150-loop
-3208,157,L,Q,-0.03096,0.2149,7.0,4,epitope-B,RBS 150-loop
-3209,157,L,R,-0.4995,0.3487,6.25,4,epitope-B,RBS 150-loop
-3210,157,L,S,-0.1739,0.324,6.0,4,epitope-B,RBS 150-loop
-3211,157,L,T,-1.026,0.4403,6.0,4,epitope-B,RBS 150-loop
-3212,157,L,V,-0.1314,0.2711,12.5,4,epitope-B,RBS 150-loop
-3213,157,L,W,0.3734,0.1146,9.0,4,epitope-B,RBS 150-loop
-3214,157,L,Y,-0.3507,0.06029,3.5,4,epitope-B,RBS 150-loop
-3216,158,N,A,-0.1017,0.484,7.0,4,epitope-B,RBS 150-loop
-3217,158,N,C,-4.78,0.0,9.0,4,epitope-B,RBS 150-loop
-3218,158,N,D,-0.00196,0.05482,10.5,4,epitope-B,RBS 150-loop
-3219,158,N,E,-0.5944,0.4376,8.0,4,epitope-B,RBS 150-loop
-3220,158,N,F,-0.3447,0.8203,4.0,4,epitope-B,RBS 150-loop
-3221,158,N,G,-0.5929,0.3513,6.5,4,epitope-B,RBS 150-loop
-3222,158,N,H,0.1756,0.2109,7.0,4,epitope-B,RBS 150-loop
-3223,158,N,I,-2.409,0.5019,5.5,4,epitope-B,RBS 150-loop
-3224,158,N,K,-0.1478,0.1668,8.0,4,epitope-B,RBS 150-loop
-3225,158,N,L,-1.417,0.2006,5.0,4,epitope-B,RBS 150-loop
-3226,158,N,M,-0.1516,0.1664,10.0,4,epitope-B,RBS 150-loop
-3228,158,N,P,-1.575,0.4459,9.0,4,epitope-B,RBS 150-loop
-3229,158,N,Q,-0.3649,0.3859,5.25,4,epitope-B,RBS 150-loop
-3230,158,N,R,-0.7208,0.6625,4.75,4,epitope-B,RBS 150-loop
-3231,158,N,S,-0.4839,0.3334,8.0,4,epitope-B,RBS 150-loop
-3232,158,N,T,-0.747,0.3285,8.5,4,epitope-B,RBS 150-loop
-3233,158,N,V,-0.7435,0.4048,7.5,4,epitope-B,RBS 150-loop
-3234,158,N,W,-1.441,0.1945,10.0,4,epitope-B,RBS 150-loop
-3235,158,N,Y,-0.7912,0.1436,9.0,4,epitope-B,RBS 150-loop
-3237,159,N,A,0.2227,0.1512,4.5,4,epitope-B,RBS 150-loop
-3238,159,N,C,-2.643,0.2065,6.0,2,epitope-B,RBS 150-loop
-3239,159,N,D,-0.5734,0.4505,8.0,4,epitope-B,RBS 150-loop
-3240,159,N,E,-0.9771,0.3334,5.5,4,epitope-B,RBS 150-loop
-3241,159,N,F,-1.808,0.5715,4.0,4,epitope-B,RBS 150-loop
-3242,159,N,G,-0.8834,0.5633,3.0,4,epitope-B,RBS 150-loop
-3243,159,N,H,-0.311,0.6217,5.0,4,epitope-B,RBS 150-loop
-3244,159,N,I,-3.027,0.3486,4.5,4,epitope-B,RBS 150-loop
-3245,159,N,K,-1.094,0.1951,6.5,4,epitope-B,RBS 150-loop
-3246,159,N,L,-1.414,0.3976,5.0,4,epitope-B,RBS 150-loop
-3247,159,N,M,-0.8619,0.3271,7.0,4,epitope-B,RBS 150-loop
-3249,159,N,P,-2.111,0.173,6.25,4,epitope-B,RBS 150-loop
-3250,159,N,Q,-0.1187,0.307,4.5,4,epitope-B,RBS 150-loop
-3251,159,N,R,-0.7091,0.4545,9.5,4,epitope-B,RBS 150-loop
-3252,159,N,S,-0.6989,0.1413,6.0,4,epitope-B,RBS 150-loop
-3253,159,N,T,-0.0397,0.7153,4.0,4,epitope-B,RBS 150-loop
-3254,159,N,V,-1.892,0.4301,9.0,4,epitope-B,RBS 150-loop
-3255,159,N,W,-1.724,0.4468,6.0,4,epitope-B,RBS 150-loop
-3256,159,N,Y,-1.55,0.4151,3.0,4,epitope-B,RBS 150-loop
-3258,160,I,A,-0.09226,0.411,6.5,4,epitope-B,RBS 150-loop
-3259,160,I,C,-0.0693,0.3686,8.5,4,epitope-B,RBS 150-loop
-3260,160,I,D,-0.3544,0.1954,8.25,4,epitope-B,RBS 150-loop
-3261,160,I,E,-0.1004,0.5198,8.5,4,epitope-B,RBS 150-loop
-3262,160,I,F,-0.0157,0.3512,5.0,4,epitope-B,RBS 150-loop
-3263,160,I,G,-0.3326,0.1679,7.0,4,epitope-B,RBS 150-loop
-3264,160,I,H,-0.3667,0.4196,3.25,4,epitope-B,RBS 150-loop
-3266,160,I,K,-0.4588,0.05553,5.5,4,epitope-B,RBS 150-loop
-3267,160,I,L,0.05341,0.05419,5.0,4,epitope-B,RBS 150-loop
-3268,160,I,M,-0.5453,0.1418,6.0,4,epitope-B,RBS 150-loop
-3269,160,I,N,-0.2633,0.2159,6.5,4,epitope-B,RBS 150-loop
-3270,160,I,P,-1.077,0.5979,6.5,4,epitope-B,RBS 150-loop
-3271,160,I,Q,-0.1144,0.5204,3.5,4,epitope-B,RBS 150-loop
-3272,160,I,R,0.1165,0.8266,3.75,4,epitope-B,RBS 150-loop
-3273,160,I,S,-1.758,0.1739,7.0,4,epitope-B,RBS 150-loop
-3274,160,I,T,-1.422,1.117,2.5,4,epitope-B,RBS 150-loop
-3275,160,I,V,0.1032,0.07078,9.5,4,epitope-B,RBS 150-loop
-3276,160,I,W,-0.08407,0.2774,5.5,4,epitope-B,RBS 150-loop
-3277,160,I,Y,0.2601,0.5904,4.0,4,epitope-B,RBS 150-loop
+3153,155,T,A,-0.8945,0.1717,10.0,4,epitope-B,150-loop
+3154,155,T,C,-4.17,0.0,3.5,4,epitope-B,150-loop
+3155,155,T,D,-4.713,0.0,4.5,4,epitope-B,150-loop
+3156,155,T,E,-4.754,0.0,4.0,4,epitope-B,150-loop
+3157,155,T,F,-2.882,0.5118,4.0,4,epitope-B,150-loop
+3158,155,T,G,-2.656,1.496,3.0,4,epitope-B,150-loop
+3159,155,T,H,-2.418,0.4774,7.0,4,epitope-B,150-loop
+3160,155,T,I,-3.66,0.0,13.5,4,epitope-B,150-loop
+3161,155,T,K,-4.776,0.0,5.5,4,epitope-B,150-loop
+3162,155,T,L,-4.866,0.0,3.5,4,epitope-B,150-loop
+3163,155,T,M,-4.854,0.0,6.5,4,epitope-B,150-loop
+3164,155,T,N,-3.987,0.0,4.0,4,epitope-B,150-loop
+3165,155,T,P,-4.877,0.0,5.5,4,epitope-B,150-loop
+3166,155,T,Q,-4.821,0.0,5.5,4,epitope-B,150-loop
+3167,155,T,R,-5.043,0.0,4.5,4,epitope-B,150-loop
+3168,155,T,S,-0.506,0.09541,5.0,4,epitope-B,150-loop
+3170,155,T,V,-0.8397,0.1664,7.0,4,epitope-B,150-loop
+3171,155,T,W,-4.901,0.0,6.5,4,epitope-B,150-loop
+3172,155,T,Y,-2.458,0.2385,3.0,4,epitope-B,150-loop
+3174,156,S,A,0.4083,0.3622,3.5,4,epitope-B,150-loop
+3175,156,S,C,-1.227,0.3463,6.5,4,epitope-B,150-loop
+3176,156,S,D,-2.526,0.5161,11.5,4,epitope-B,150-loop
+3177,156,S,E,-1.489,0.1941,6.0,4,epitope-B,150-loop
+3178,156,S,F,-2.724,0.2489,6.75,4,epitope-B,150-loop
+3179,156,S,G,-0.766,0.5836,7.75,4,epitope-B,150-loop
+3180,156,S,H,-1.605,0.2021,5.0,4,epitope-B,150-loop
+3181,156,S,I,-2.956,0.6344,11.5,4,epitope-B,150-loop
+3182,156,S,K,-0.188,0.2184,9.5,4,epitope-B,150-loop
+3183,156,S,L,-2.718,0.6992,3.5,4,epitope-B,150-loop
+3184,156,S,M,-0.6619,0.3048,9.75,4,epitope-B,150-loop
+3185,156,S,N,-1.48,0.4412,10.0,4,epitope-B,150-loop
+3186,156,S,P,-4.894,0.0,2.75,4,epitope-B,150-loop
+3187,156,S,Q,-0.02245,0.2158,7.0,4,epitope-B,150-loop
+3188,156,S,R,-1.317,0.2032,13.0,4,epitope-B,150-loop
+3190,156,S,T,-0.6634,0.06768,7.0,4,epitope-B,150-loop
+3191,156,S,V,-0.2896,0.386,6.5,4,epitope-B,150-loop
+3192,156,S,W,-4.258,0.0,7.25,4,epitope-B,150-loop
+3193,156,S,Y,-2.481,0.2234,10.5,4,epitope-B,150-loop
+3195,157,L,A,0.000825,0.2092,4.5,4,epitope-B,150-loop
+3196,157,L,C,-1.547,0.243,6.5,4,epitope-B,150-loop
+3197,157,L,D,-0.8376,0.8639,7.0,4,epitope-B,150-loop
+3198,157,L,E,-0.2085,0.2705,9.5,4,epitope-B,150-loop
+3199,157,L,F,-0.6667,0.8643,5.5,4,epitope-B,150-loop
+3200,157,L,G,-0.7487,0.125,6.5,4,epitope-B,150-loop
+3201,157,L,H,0.08228,0.09416,7.0,4,epitope-B,150-loop
+3202,157,L,I,-0.2749,0.2487,9.75,4,epitope-B,150-loop
+3203,157,L,K,-0.1436,0.6821,6.0,4,epitope-B,150-loop
+3205,157,L,M,-0.4071,0.2877,8.75,4,epitope-B,150-loop
+3206,157,L,N,-0.569,0.4889,10.0,4,epitope-B,150-loop
+3207,157,L,P,-1.131,0.3634,10.75,4,epitope-B,150-loop
+3208,157,L,Q,-0.03096,0.2149,7.0,4,epitope-B,150-loop
+3209,157,L,R,-0.4995,0.3487,6.25,4,epitope-B,150-loop
+3210,157,L,S,-0.1739,0.324,6.0,4,epitope-B,150-loop
+3211,157,L,T,-1.026,0.4403,6.0,4,epitope-B,150-loop
+3212,157,L,V,-0.1314,0.2711,12.5,4,epitope-B,150-loop
+3213,157,L,W,0.3734,0.1146,9.0,4,epitope-B,150-loop
+3214,157,L,Y,-0.3507,0.06029,3.5,4,epitope-B,150-loop
+3216,158,N,A,-0.1017,0.484,7.0,4,epitope-B,150-loop
+3217,158,N,C,-4.78,0.0,9.0,4,epitope-B,150-loop
+3218,158,N,D,-0.00196,0.05482,10.5,4,epitope-B,150-loop
+3219,158,N,E,-0.5944,0.4376,8.0,4,epitope-B,150-loop
+3220,158,N,F,-0.3447,0.8203,4.0,4,epitope-B,150-loop
+3221,158,N,G,-0.5929,0.3513,6.5,4,epitope-B,150-loop
+3222,158,N,H,0.1756,0.2109,7.0,4,epitope-B,150-loop
+3223,158,N,I,-2.409,0.5019,5.5,4,epitope-B,150-loop
+3224,158,N,K,-0.1478,0.1668,8.0,4,epitope-B,150-loop
+3225,158,N,L,-1.417,0.2006,5.0,4,epitope-B,150-loop
+3226,158,N,M,-0.1516,0.1664,10.0,4,epitope-B,150-loop
+3228,158,N,P,-1.575,0.4459,9.0,4,epitope-B,150-loop
+3229,158,N,Q,-0.3649,0.3859,5.25,4,epitope-B,150-loop
+3230,158,N,R,-0.7208,0.6625,4.75,4,epitope-B,150-loop
+3231,158,N,S,-0.4839,0.3334,8.0,4,epitope-B,150-loop
+3232,158,N,T,-0.747,0.3285,8.5,4,epitope-B,150-loop
+3233,158,N,V,-0.7435,0.4048,7.5,4,epitope-B,150-loop
+3234,158,N,W,-1.441,0.1945,10.0,4,epitope-B,150-loop
+3235,158,N,Y,-0.7912,0.1436,9.0,4,epitope-B,150-loop
+3237,159,N,A,0.2227,0.1512,4.5,4,epitope-B,150-loop
+3238,159,N,C,-2.643,0.2065,6.0,2,epitope-B,150-loop
+3239,159,N,D,-0.5734,0.4505,8.0,4,epitope-B,150-loop
+3240,159,N,E,-0.9771,0.3334,5.5,4,epitope-B,150-loop
+3241,159,N,F,-1.808,0.5715,4.0,4,epitope-B,150-loop
+3242,159,N,G,-0.8834,0.5633,3.0,4,epitope-B,150-loop
+3243,159,N,H,-0.311,0.6217,5.0,4,epitope-B,150-loop
+3244,159,N,I,-3.027,0.3486,4.5,4,epitope-B,150-loop
+3245,159,N,K,-1.094,0.1951,6.5,4,epitope-B,150-loop
+3246,159,N,L,-1.414,0.3976,5.0,4,epitope-B,150-loop
+3247,159,N,M,-0.8619,0.3271,7.0,4,epitope-B,150-loop
+3249,159,N,P,-2.111,0.173,6.25,4,epitope-B,150-loop
+3250,159,N,Q,-0.1187,0.307,4.5,4,epitope-B,150-loop
+3251,159,N,R,-0.7091,0.4545,9.5,4,epitope-B,150-loop
+3252,159,N,S,-0.6989,0.1413,6.0,4,epitope-B,150-loop
+3253,159,N,T,-0.0397,0.7153,4.0,4,epitope-B,150-loop
+3254,159,N,V,-1.892,0.4301,9.0,4,epitope-B,150-loop
+3255,159,N,W,-1.724,0.4468,6.0,4,epitope-B,150-loop
+3256,159,N,Y,-1.55,0.4151,3.0,4,epitope-B,150-loop
+3258,160,I,A,-0.09226,0.411,6.5,4,epitope-B,150-loop
+3259,160,I,C,-0.0693,0.3686,8.5,4,epitope-B,150-loop
+3260,160,I,D,-0.3544,0.1954,8.25,4,epitope-B,150-loop
+3261,160,I,E,-0.1004,0.5198,8.5,4,epitope-B,150-loop
+3262,160,I,F,-0.0157,0.3512,5.0,4,epitope-B,150-loop
+3263,160,I,G,-0.3326,0.1679,7.0,4,epitope-B,150-loop
+3264,160,I,H,-0.3667,0.4196,3.25,4,epitope-B,150-loop
+3266,160,I,K,-0.4588,0.05553,5.5,4,epitope-B,150-loop
+3267,160,I,L,0.05341,0.05419,5.0,4,epitope-B,150-loop
+3268,160,I,M,-0.5453,0.1418,6.0,4,epitope-B,150-loop
+3269,160,I,N,-0.2633,0.2159,6.5,4,epitope-B,150-loop
+3270,160,I,P,-1.077,0.5979,6.5,4,epitope-B,150-loop
+3271,160,I,Q,-0.1144,0.5204,3.5,4,epitope-B,150-loop
+3272,160,I,R,0.1165,0.8266,3.75,4,epitope-B,150-loop
+3273,160,I,S,-1.758,0.1739,7.0,4,epitope-B,150-loop
+3274,160,I,T,-1.422,1.117,2.5,4,epitope-B,150-loop
+3275,160,I,V,0.1032,0.07078,9.5,4,epitope-B,150-loop
+3276,160,I,W,-0.08407,0.2774,5.5,4,epitope-B,150-loop
+3277,160,I,Y,0.2601,0.5904,4.0,4,epitope-B,150-loop
 3278,161,Y,*,-4.721,0.0,3.0,2,HA1,outside RBS
 3280,161,Y,A,-1.345,0.3245,6.5,4,HA1,outside RBS
 3281,161,Y,C,-2.462,0.5874,7.0,4,HA1,outside RBS
@@ -3498,25 +3498,25 @@
 3799,185,P,V,-3.604,0.0,9.0,4,HA1,outside RBS
 3800,185,P,W,-4.848,0.0,10.0,4,HA1,outside RBS
 3801,185,P,Y,-4.81,0.0,6.25,4,HA1,outside RBS
-3802,186,D,-,-1.285,1.313,2.0,2,epitope-B,RBS 190-loop
-3803,186,D,A,-4.771,0.0,4.5,4,epitope-B,RBS 190-loop
-3804,186,D,C,-4.814,0.0,8.0,4,epitope-B,RBS 190-loop
-3806,186,D,E,-4.937,0.0,11.25,4,epitope-B,RBS 190-loop
-3807,186,D,F,-4.369,0.0,9.5,4,epitope-B,RBS 190-loop
-3808,186,D,G,-2.185,0.156,8.0,4,epitope-B,RBS 190-loop
-3809,186,D,H,-4.099,0.0,3.5,4,epitope-B,RBS 190-loop
-3810,186,D,I,-4.821,0.0,4.5,4,epitope-B,RBS 190-loop
-3811,186,D,K,-4.923,0.0,5.5,4,epitope-B,RBS 190-loop
-3812,186,D,L,-4.854,0.0,4.0,4,epitope-B,RBS 190-loop
-3813,186,D,M,-4.654,0.0,4.25,4,epitope-B,RBS 190-loop
-3814,186,D,N,-0.8557,0.1482,14.5,4,epitope-B,RBS 190-loop
-3815,186,D,P,-3.678,0.0,4.5,4,epitope-B,RBS 190-loop
-3816,186,D,Q,-4.811,0.0,2.0,2,epitope-B,RBS 190-loop
-3817,186,D,R,-2.095,1.917,2.0,4,epitope-B,RBS 190-loop
-3818,186,D,T,-4.656,0.0,4.5,4,epitope-B,RBS 190-loop
-3819,186,D,V,-4.816,0.0,8.5,4,epitope-B,RBS 190-loop
-3820,186,D,W,-4.094,0.0,5.5,4,epitope-B,RBS 190-loop
-3821,186,D,Y,-4.803,0.0,8.75,4,epitope-B,RBS 190-loop
+3802,186,D,-,-1.285,1.313,2.0,2,epitope-B,190-helix
+3803,186,D,A,-4.771,0.0,4.5,4,epitope-B,190-helix
+3804,186,D,C,-4.814,0.0,8.0,4,epitope-B,190-helix
+3806,186,D,E,-4.937,0.0,11.25,4,epitope-B,190-helix
+3807,186,D,F,-4.369,0.0,9.5,4,epitope-B,190-helix
+3808,186,D,G,-2.185,0.156,8.0,4,epitope-B,190-helix
+3809,186,D,H,-4.099,0.0,3.5,4,epitope-B,190-helix
+3810,186,D,I,-4.821,0.0,4.5,4,epitope-B,190-helix
+3811,186,D,K,-4.923,0.0,5.5,4,epitope-B,190-helix
+3812,186,D,L,-4.854,0.0,4.0,4,epitope-B,190-helix
+3813,186,D,M,-4.654,0.0,4.25,4,epitope-B,190-helix
+3814,186,D,N,-0.8557,0.1482,14.5,4,epitope-B,190-helix
+3815,186,D,P,-3.678,0.0,4.5,4,epitope-B,190-helix
+3816,186,D,Q,-4.811,0.0,2.0,2,epitope-B,190-helix
+3817,186,D,R,-2.095,1.917,2.0,4,epitope-B,190-helix
+3818,186,D,T,-4.656,0.0,4.5,4,epitope-B,190-helix
+3819,186,D,V,-4.816,0.0,8.5,4,epitope-B,190-helix
+3820,186,D,W,-4.094,0.0,5.5,4,epitope-B,190-helix
+3821,186,D,Y,-4.803,0.0,8.75,4,epitope-B,190-helix
 3823,187,T,A,-0.4197,0.9203,10.5,4,epitope-B,outside RBS
 3824,187,T,C,-0.4331,0.04258,6.5,4,epitope-B,outside RBS
 3825,187,T,D,-0.1991,0.1854,6.0,4,epitope-B,outside RBS
@@ -3555,121 +3555,121 @@
 3861,188,D,V,-0.5982,0.2509,6.5,4,epitope-B,outside RBS
 3862,188,D,W,0.07965,0.4132,6.5,4,epitope-B,outside RBS
 3863,188,D,Y,-0.1608,0.4305,10.75,4,epitope-B,outside RBS
-3865,189,K,A,-1.512,0.5497,5.5,4,epitope-B,RBS 190-loop
-3866,189,K,C,-1.304,0.1708,6.0,4,epitope-B,RBS 190-loop
-3867,189,K,D,-0.4287,0.6322,3.0,4,epitope-B,RBS 190-loop
-3868,189,K,E,-0.2025,0.1302,10.0,4,epitope-B,RBS 190-loop
-3869,189,K,F,-0.6916,0.3904,10.0,4,epitope-B,RBS 190-loop
-3870,189,K,G,-0.9463,0.1778,8.0,4,epitope-B,RBS 190-loop
-3871,189,K,H,-0.8703,0.2277,8.5,4,epitope-B,RBS 190-loop
-3872,189,K,I,-0.6826,0.4413,6.0,4,epitope-B,RBS 190-loop
-3874,189,K,L,-0.308,0.04616,12.0,4,epitope-B,RBS 190-loop
-3875,189,K,M,-0.917,0.6243,2.0,4,epitope-B,RBS 190-loop
-3876,189,K,N,-0.9777,0.3137,12.0,4,epitope-B,RBS 190-loop
-3877,189,K,P,-1.286,0.07663,8.0,4,epitope-B,RBS 190-loop
-3878,189,K,Q,-1.163,0.2955,10.5,4,epitope-B,RBS 190-loop
-3879,189,K,R,-0.2452,0.2289,7.5,4,epitope-B,RBS 190-loop
-3880,189,K,S,-1.283,0.3698,5.5,4,epitope-B,RBS 190-loop
-3881,189,K,T,-0.3512,0.4159,6.5,4,epitope-B,RBS 190-loop
-3882,189,K,V,-0.543,0.3699,6.5,4,epitope-B,RBS 190-loop
-3883,189,K,W,-1.157,0.33,9.0,4,epitope-B,RBS 190-loop
-3884,189,K,Y,-1.203,0.3424,7.5,4,epitope-B,RBS 190-loop
-3886,190,N,A,-1.092,0.7613,2.5,4,epitope-B,RBS 190-loop
-3887,190,N,C,-4.838,0.0,5.5,4,epitope-B,RBS 190-loop
-3888,190,N,D,-1.224,0.1132,3.5,4,epitope-B,RBS 190-loop
-3889,190,N,E,-4.79,0.0,7.0,4,epitope-B,RBS 190-loop
-3890,190,N,F,-4.781,0.0,8.5,4,epitope-B,RBS 190-loop
-3891,190,N,G,-2.489,0.6944,6.5,4,epitope-B,RBS 190-loop
-3892,190,N,H,-4.774,0.0,6.0,4,epitope-B,RBS 190-loop
-3893,190,N,I,-1.342,0.09265,6.75,4,epitope-B,RBS 190-loop
-3894,190,N,K,-4.819,0.0,8.0,4,epitope-B,RBS 190-loop
-3895,190,N,L,-4.806,0.0,4.5,4,epitope-B,RBS 190-loop
-3896,190,N,M,-3.788,0.0765,5.0,4,epitope-B,RBS 190-loop
-3898,190,N,P,-4.797,0.0,4.25,4,epitope-B,RBS 190-loop
-3899,190,N,Q,-0.6781,0.4967,7.5,4,epitope-B,RBS 190-loop
-3900,190,N,R,-4.902,0.0,4.5,4,epitope-B,RBS 190-loop
-3901,190,N,S,-1.284,0.1886,9.0,4,epitope-B,RBS 190-loop
-3902,190,N,T,-1.464,0.8068,5.5,4,epitope-B,RBS 190-loop
-3903,190,N,V,-1.417,0.3302,6.5,4,epitope-B,RBS 190-loop
-3904,190,N,W,-4.835,0.0,11.0,4,epitope-B,RBS 190-loop
-3905,190,N,Y,-4.713,1.663,3.0,4,epitope-B,RBS 190-loop
-3906,191,Q,*,-4.96,0.0,4.5,4,epitope-B,RBS 190-loop
-3907,191,Q,A,-0.8132,0.1935,5.0,4,epitope-B,RBS 190-loop
-3908,191,Q,C,-4.753,0.0,7.5,4,epitope-B,RBS 190-loop
-3909,191,Q,D,-4.418,0.0,5.5,4,epitope-B,RBS 190-loop
-3910,191,Q,E,-1.329,0.9342,6.5,4,epitope-B,RBS 190-loop
-3911,191,Q,F,-3.295,0.0645,6.5,4,epitope-B,RBS 190-loop
-3912,191,Q,G,-1.522,0.07427,7.0,4,epitope-B,RBS 190-loop
-3913,191,Q,H,-1.481,1.18,3.5,4,epitope-B,RBS 190-loop
-3914,191,Q,I,-2.966,1.393,5.5,4,epitope-B,RBS 190-loop
-3915,191,Q,K,-2.381,0.316,10.5,4,epitope-B,RBS 190-loop
-3916,191,Q,L,-4.752,0.0,9.5,4,epitope-B,RBS 190-loop
-3917,191,Q,M,-0.94,0.1033,5.0,4,epitope-B,RBS 190-loop
-3918,191,Q,N,-4.678,0.0,6.0,2,epitope-B,RBS 190-loop
-3919,191,Q,P,-4.721,0.0,6.75,4,epitope-B,RBS 190-loop
-3921,191,Q,R,-3.096,0.078,3.5,4,epitope-B,RBS 190-loop
-3922,191,Q,S,-1.699,0.09321,8.0,4,epitope-B,RBS 190-loop
-3923,191,Q,T,-2.977,0.1924,5.0,4,epitope-B,RBS 190-loop
-3924,191,Q,V,-4.872,0.0,7.0,4,epitope-B,RBS 190-loop
-3925,191,Q,W,-2.255,0.317,12.0,4,epitope-B,RBS 190-loop
-3926,191,Q,Y,-3.534,0.007,8.0,4,epitope-B,RBS 190-loop
-3927,192,F,A,-0.2889,0.918,4.0,4,epitope-B,RBS 190-loop
-3928,192,F,C,-2.931,0.1014,6.5,4,epitope-B,RBS 190-loop
-3929,192,F,D,-2.792,0.1921,8.5,4,epitope-B,RBS 190-loop
-3930,192,F,E,-2.195,0.1434,7.0,4,epitope-B,RBS 190-loop
-3932,192,F,G,-2.333,0.1532,5.0,4,epitope-B,RBS 190-loop
-3933,192,F,H,-1.047,0.1372,7.5,4,epitope-B,RBS 190-loop
-3934,192,F,I,-0.8981,0.3509,8.25,4,epitope-B,RBS 190-loop
-3935,192,F,K,-0.8873,1.181,8.5,4,epitope-B,RBS 190-loop
-3936,192,F,L,-1.315,0.4663,10.0,4,epitope-B,RBS 190-loop
-3937,192,F,M,-1.833,0.2502,6.0,4,epitope-B,RBS 190-loop
-3938,192,F,N,-2.565,0.4647,3.5,4,epitope-B,RBS 190-loop
-3939,192,F,P,-4.891,0.0,4.5,4,epitope-B,RBS 190-loop
-3940,192,F,Q,-1.703,0.2398,6.0,4,epitope-B,RBS 190-loop
-3941,192,F,R,-1.309,0.2405,10.0,4,epitope-B,RBS 190-loop
-3942,192,F,S,-4.911,0.0,8.5,4,epitope-B,RBS 190-loop
-3943,192,F,T,-4.974,0.0,4.0,4,epitope-B,RBS 190-loop
-3944,192,F,V,-0.9825,0.6775,7.0,4,epitope-B,RBS 190-loop
-3945,192,F,W,-0.5385,0.3865,8.5,4,epitope-B,RBS 190-loop
-3946,192,F,Y,-0.2331,0.1519,5.75,4,epitope-B,RBS 190-loop
-3947,193,S,A,-0.7776,0.2596,10.5,4,epitope-B,RBS 190-loop
-3948,193,S,C,-4.828,0.0,6.5,4,epitope-B,RBS 190-loop
-3949,193,S,D,-4.471,0.0,6.5,4,epitope-B,RBS 190-loop
-3950,193,S,E,-4.866,0.0,13.0,4,epitope-B,RBS 190-loop
-3951,193,S,F,-2.745,0.1959,8.5,4,epitope-B,RBS 190-loop
-3952,193,S,G,-0.6961,0.2768,9.0,4,epitope-B,RBS 190-loop
-3953,193,S,H,-4.446,0.0,7.0,4,epitope-B,RBS 190-loop
-3954,193,S,I,-4.709,0.0,4.25,4,epitope-B,RBS 190-loop
-3955,193,S,K,-4.672,0.0,6.5,4,epitope-B,RBS 190-loop
-3956,193,S,L,-4.649,0.0,7.5,4,epitope-B,RBS 190-loop
-3957,193,S,M,-4.935,0.0,7.5,4,epitope-B,RBS 190-loop
-3958,193,S,N,-4.497,0.0,9.0,4,epitope-B,RBS 190-loop
-3959,193,S,P,-4.918,0.0,5.5,4,epitope-B,RBS 190-loop
-3960,193,S,Q,-4.665,0.0,8.75,4,epitope-B,RBS 190-loop
-3961,193,S,R,-4.822,0.0,6.5,4,epitope-B,RBS 190-loop
-3963,193,S,T,-1.595,0.4221,7.0,4,epitope-B,RBS 190-loop
-3964,193,S,V,-4.829,0.0,8.5,4,epitope-B,RBS 190-loop
-3965,193,S,W,-2.05,0.2699,8.75,4,epitope-B,RBS 190-loop
-3966,193,S,Y,-1.683,0.167,15.0,4,epitope-B,RBS 190-loop
-3967,194,L,A,-4.758,0.0,8.5,4,epitope-B,RBS 190-loop
-3968,194,L,C,-4.902,0.0,8.0,4,epitope-B,RBS 190-loop
-3969,194,L,D,-4.874,0.0,8.5,4,epitope-B,RBS 190-loop
-3970,194,L,E,-4.739,0.0,10.75,4,epitope-B,RBS 190-loop
-3971,194,L,F,-4.925,0.0,4.5,4,epitope-B,RBS 190-loop
-3972,194,L,G,-4.797,0.0,6.25,4,epitope-B,RBS 190-loop
-3973,194,L,H,-4.916,0.0,10.0,4,epitope-B,RBS 190-loop
-3974,194,L,I,-4.51,0.0,9.0,4,epitope-B,RBS 190-loop
-3975,194,L,K,-4.925,0.0,8.0,4,epitope-B,RBS 190-loop
-3977,194,L,M,-4.174,0.0,11.25,4,epitope-B,RBS 190-loop
-3978,194,L,N,-4.735,0.0,7.0,4,epitope-B,RBS 190-loop
-3979,194,L,P,-4.841,0.0,16.0,4,epitope-B,RBS 190-loop
-3980,194,L,Q,-4.716,0.0,8.5,4,epitope-B,RBS 190-loop
-3981,194,L,R,-4.813,0.0,11.5,4,epitope-B,RBS 190-loop
-3982,194,L,S,-4.792,0.0,5.5,4,epitope-B,RBS 190-loop
-3983,194,L,T,-4.531,0.0,5.0,4,epitope-B,RBS 190-loop
-3984,194,L,V,-4.781,0.0,10.5,4,epitope-B,RBS 190-loop
-3985,194,L,W,-4.866,0.0,8.0,4,epitope-B,RBS 190-loop
-3986,194,L,Y,-4.999,0.0,7.25,4,epitope-B,RBS 190-loop
+3865,189,K,A,-1.512,0.5497,5.5,4,epitope-B,190-helix
+3866,189,K,C,-1.304,0.1708,6.0,4,epitope-B,190-helix
+3867,189,K,D,-0.4287,0.6322,3.0,4,epitope-B,190-helix
+3868,189,K,E,-0.2025,0.1302,10.0,4,epitope-B,190-helix
+3869,189,K,F,-0.6916,0.3904,10.0,4,epitope-B,190-helix
+3870,189,K,G,-0.9463,0.1778,8.0,4,epitope-B,190-helix
+3871,189,K,H,-0.8703,0.2277,8.5,4,epitope-B,190-helix
+3872,189,K,I,-0.6826,0.4413,6.0,4,epitope-B,190-helix
+3874,189,K,L,-0.308,0.04616,12.0,4,epitope-B,190-helix
+3875,189,K,M,-0.917,0.6243,2.0,4,epitope-B,190-helix
+3876,189,K,N,-0.9777,0.3137,12.0,4,epitope-B,190-helix
+3877,189,K,P,-1.286,0.07663,8.0,4,epitope-B,190-helix
+3878,189,K,Q,-1.163,0.2955,10.5,4,epitope-B,190-helix
+3879,189,K,R,-0.2452,0.2289,7.5,4,epitope-B,190-helix
+3880,189,K,S,-1.283,0.3698,5.5,4,epitope-B,190-helix
+3881,189,K,T,-0.3512,0.4159,6.5,4,epitope-B,190-helix
+3882,189,K,V,-0.543,0.3699,6.5,4,epitope-B,190-helix
+3883,189,K,W,-1.157,0.33,9.0,4,epitope-B,190-helix
+3884,189,K,Y,-1.203,0.3424,7.5,4,epitope-B,190-helix
+3886,190,N,A,-1.092,0.7613,2.5,4,epitope-B,190-helix
+3887,190,N,C,-4.838,0.0,5.5,4,epitope-B,190-helix
+3888,190,N,D,-1.224,0.1132,3.5,4,epitope-B,190-helix
+3889,190,N,E,-4.79,0.0,7.0,4,epitope-B,190-helix
+3890,190,N,F,-4.781,0.0,8.5,4,epitope-B,190-helix
+3891,190,N,G,-2.489,0.6944,6.5,4,epitope-B,190-helix
+3892,190,N,H,-4.774,0.0,6.0,4,epitope-B,190-helix
+3893,190,N,I,-1.342,0.09265,6.75,4,epitope-B,190-helix
+3894,190,N,K,-4.819,0.0,8.0,4,epitope-B,190-helix
+3895,190,N,L,-4.806,0.0,4.5,4,epitope-B,190-helix
+3896,190,N,M,-3.788,0.0765,5.0,4,epitope-B,190-helix
+3898,190,N,P,-4.797,0.0,4.25,4,epitope-B,190-helix
+3899,190,N,Q,-0.6781,0.4967,7.5,4,epitope-B,190-helix
+3900,190,N,R,-4.902,0.0,4.5,4,epitope-B,190-helix
+3901,190,N,S,-1.284,0.1886,9.0,4,epitope-B,190-helix
+3902,190,N,T,-1.464,0.8068,5.5,4,epitope-B,190-helix
+3903,190,N,V,-1.417,0.3302,6.5,4,epitope-B,190-helix
+3904,190,N,W,-4.835,0.0,11.0,4,epitope-B,190-helix
+3905,190,N,Y,-4.713,1.663,3.0,4,epitope-B,190-helix
+3906,191,Q,*,-4.96,0.0,4.5,4,epitope-B,190-helix
+3907,191,Q,A,-0.8132,0.1935,5.0,4,epitope-B,190-helix
+3908,191,Q,C,-4.753,0.0,7.5,4,epitope-B,190-helix
+3909,191,Q,D,-4.418,0.0,5.5,4,epitope-B,190-helix
+3910,191,Q,E,-1.329,0.9342,6.5,4,epitope-B,190-helix
+3911,191,Q,F,-3.295,0.0645,6.5,4,epitope-B,190-helix
+3912,191,Q,G,-1.522,0.07427,7.0,4,epitope-B,190-helix
+3913,191,Q,H,-1.481,1.18,3.5,4,epitope-B,190-helix
+3914,191,Q,I,-2.966,1.393,5.5,4,epitope-B,190-helix
+3915,191,Q,K,-2.381,0.316,10.5,4,epitope-B,190-helix
+3916,191,Q,L,-4.752,0.0,9.5,4,epitope-B,190-helix
+3917,191,Q,M,-0.94,0.1033,5.0,4,epitope-B,190-helix
+3918,191,Q,N,-4.678,0.0,6.0,2,epitope-B,190-helix
+3919,191,Q,P,-4.721,0.0,6.75,4,epitope-B,190-helix
+3921,191,Q,R,-3.096,0.078,3.5,4,epitope-B,190-helix
+3922,191,Q,S,-1.699,0.09321,8.0,4,epitope-B,190-helix
+3923,191,Q,T,-2.977,0.1924,5.0,4,epitope-B,190-helix
+3924,191,Q,V,-4.872,0.0,7.0,4,epitope-B,190-helix
+3925,191,Q,W,-2.255,0.317,12.0,4,epitope-B,190-helix
+3926,191,Q,Y,-3.534,0.007,8.0,4,epitope-B,190-helix
+3927,192,F,A,-0.2889,0.918,4.0,4,epitope-B,190-helix
+3928,192,F,C,-2.931,0.1014,6.5,4,epitope-B,190-helix
+3929,192,F,D,-2.792,0.1921,8.5,4,epitope-B,190-helix
+3930,192,F,E,-2.195,0.1434,7.0,4,epitope-B,190-helix
+3932,192,F,G,-2.333,0.1532,5.0,4,epitope-B,190-helix
+3933,192,F,H,-1.047,0.1372,7.5,4,epitope-B,190-helix
+3934,192,F,I,-0.8981,0.3509,8.25,4,epitope-B,190-helix
+3935,192,F,K,-0.8873,1.181,8.5,4,epitope-B,190-helix
+3936,192,F,L,-1.315,0.4663,10.0,4,epitope-B,190-helix
+3937,192,F,M,-1.833,0.2502,6.0,4,epitope-B,190-helix
+3938,192,F,N,-2.565,0.4647,3.5,4,epitope-B,190-helix
+3939,192,F,P,-4.891,0.0,4.5,4,epitope-B,190-helix
+3940,192,F,Q,-1.703,0.2398,6.0,4,epitope-B,190-helix
+3941,192,F,R,-1.309,0.2405,10.0,4,epitope-B,190-helix
+3942,192,F,S,-4.911,0.0,8.5,4,epitope-B,190-helix
+3943,192,F,T,-4.974,0.0,4.0,4,epitope-B,190-helix
+3944,192,F,V,-0.9825,0.6775,7.0,4,epitope-B,190-helix
+3945,192,F,W,-0.5385,0.3865,8.5,4,epitope-B,190-helix
+3946,192,F,Y,-0.2331,0.1519,5.75,4,epitope-B,190-helix
+3947,193,S,A,-0.7776,0.2596,10.5,4,epitope-B,190-helix
+3948,193,S,C,-4.828,0.0,6.5,4,epitope-B,190-helix
+3949,193,S,D,-4.471,0.0,6.5,4,epitope-B,190-helix
+3950,193,S,E,-4.866,0.0,13.0,4,epitope-B,190-helix
+3951,193,S,F,-2.745,0.1959,8.5,4,epitope-B,190-helix
+3952,193,S,G,-0.6961,0.2768,9.0,4,epitope-B,190-helix
+3953,193,S,H,-4.446,0.0,7.0,4,epitope-B,190-helix
+3954,193,S,I,-4.709,0.0,4.25,4,epitope-B,190-helix
+3955,193,S,K,-4.672,0.0,6.5,4,epitope-B,190-helix
+3956,193,S,L,-4.649,0.0,7.5,4,epitope-B,190-helix
+3957,193,S,M,-4.935,0.0,7.5,4,epitope-B,190-helix
+3958,193,S,N,-4.497,0.0,9.0,4,epitope-B,190-helix
+3959,193,S,P,-4.918,0.0,5.5,4,epitope-B,190-helix
+3960,193,S,Q,-4.665,0.0,8.75,4,epitope-B,190-helix
+3961,193,S,R,-4.822,0.0,6.5,4,epitope-B,190-helix
+3963,193,S,T,-1.595,0.4221,7.0,4,epitope-B,190-helix
+3964,193,S,V,-4.829,0.0,8.5,4,epitope-B,190-helix
+3965,193,S,W,-2.05,0.2699,8.75,4,epitope-B,190-helix
+3966,193,S,Y,-1.683,0.167,15.0,4,epitope-B,190-helix
+3967,194,L,A,-4.758,0.0,8.5,4,epitope-B,190-helix
+3968,194,L,C,-4.902,0.0,8.0,4,epitope-B,190-helix
+3969,194,L,D,-4.874,0.0,8.5,4,epitope-B,190-helix
+3970,194,L,E,-4.739,0.0,10.75,4,epitope-B,190-helix
+3971,194,L,F,-4.925,0.0,4.5,4,epitope-B,190-helix
+3972,194,L,G,-4.797,0.0,6.25,4,epitope-B,190-helix
+3973,194,L,H,-4.916,0.0,10.0,4,epitope-B,190-helix
+3974,194,L,I,-4.51,0.0,9.0,4,epitope-B,190-helix
+3975,194,L,K,-4.925,0.0,8.0,4,epitope-B,190-helix
+3977,194,L,M,-4.174,0.0,11.25,4,epitope-B,190-helix
+3978,194,L,N,-4.735,0.0,7.0,4,epitope-B,190-helix
+3979,194,L,P,-4.841,0.0,16.0,4,epitope-B,190-helix
+3980,194,L,Q,-4.716,0.0,8.5,4,epitope-B,190-helix
+3981,194,L,R,-4.813,0.0,11.5,4,epitope-B,190-helix
+3982,194,L,S,-4.792,0.0,5.5,4,epitope-B,190-helix
+3983,194,L,T,-4.531,0.0,5.0,4,epitope-B,190-helix
+3984,194,L,V,-4.781,0.0,10.5,4,epitope-B,190-helix
+3985,194,L,W,-4.866,0.0,8.0,4,epitope-B,190-helix
+3986,194,L,Y,-4.999,0.0,7.25,4,epitope-B,190-helix
 3988,195,F,A,-1.891,0.07685,5.0,4,epitope-B,RBS base
 3989,195,F,C,-4.856,0.0,8.0,4,epitope-B,RBS base
 3990,195,F,D,-4.901,0.0,12.25,4,epitope-B,RBS base
@@ -3689,63 +3689,63 @@
 4005,195,F,V,-1.702,0.4003,9.0,4,epitope-B,RBS base
 4006,195,F,W,-2.147,0.3047,4.75,4,epitope-B,RBS base
 4007,195,F,Y,-4.207,0.0,7.5,4,epitope-B,RBS base
-4009,196,A,C,-1.088,0.07334,8.5,4,epitope-B,RBS 190-loop
-4010,196,A,D,-0.8427,0.1734,12.0,4,epitope-B,RBS 190-loop
-4011,196,A,E,-1.153,0.2964,10.5,4,epitope-B,RBS 190-loop
-4012,196,A,F,-1.554,0.3652,7.0,4,epitope-B,RBS 190-loop
-4013,196,A,G,-0.1612,0.3524,7.5,4,epitope-B,RBS 190-loop
-4014,196,A,H,-0.5788,0.2685,12.0,4,epitope-B,RBS 190-loop
-4015,196,A,I,-1.574,0.455,8.0,4,epitope-B,RBS 190-loop
-4016,196,A,K,-0.8355,0.4737,7.5,4,epitope-B,RBS 190-loop
-4017,196,A,L,-1.192,0.3596,7.5,4,epitope-B,RBS 190-loop
-4018,196,A,M,-1.896,0.5058,12.0,4,epitope-B,RBS 190-loop
-4019,196,A,N,-4.787,0.0,5.5,4,epitope-B,RBS 190-loop
-4020,196,A,P,-3.409,0.0,6.5,4,epitope-B,RBS 190-loop
-4021,196,A,Q,-0.7295,0.188,9.5,4,epitope-B,RBS 190-loop
-4022,196,A,R,-0.3628,0.3106,8.0,4,epitope-B,RBS 190-loop
-4023,196,A,S,-0.1682,0.1037,14.5,4,epitope-B,RBS 190-loop
-4024,196,A,T,-0.9835,0.07785,16.0,4,epitope-B,RBS 190-loop
-4025,196,A,V,-0.6422,0.1076,17.25,4,epitope-B,RBS 190-loop
-4026,196,A,W,-2.391,0.298,12.0,4,epitope-B,RBS 190-loop
-4027,196,A,Y,-1.764,0.3359,5.5,4,epitope-B,RBS 190-loop
-4028,197,Q,*,-4.488,0.0,4.5,4,epitope-B,RBS 190-loop
-4030,197,Q,C,-0.2464,0.2761,8.0,4,epitope-B,RBS 190-loop
-4031,197,Q,D,-0.3299,0.4156,8.5,4,epitope-B,RBS 190-loop
-4032,197,Q,E,-0.7609,0.1791,8.0,4,epitope-B,RBS 190-loop
-4033,197,Q,F,-1.365,0.1244,8.0,4,epitope-B,RBS 190-loop
-4034,197,Q,G,0.176,0.2815,9.0,4,epitope-B,RBS 190-loop
-4035,197,Q,H,-0.5703,0.1605,9.0,4,epitope-B,RBS 190-loop
-4036,197,Q,I,0.0274,0.5816,6.5,4,epitope-B,RBS 190-loop
-4037,197,Q,K,-0.1135,0.4105,13.5,4,epitope-B,RBS 190-loop
-4038,197,Q,L,-1.065,0.7368,9.0,4,epitope-B,RBS 190-loop
-4039,197,Q,M,-0.5842,0.08747,7.75,4,epitope-B,RBS 190-loop
-4040,197,Q,N,-3.122,0.2935,7.5,4,epitope-B,RBS 190-loop
-4041,197,Q,P,-0.9578,0.2184,9.5,4,epitope-B,RBS 190-loop
-4043,197,Q,R,0.09168,0.2306,14.25,4,epitope-B,RBS 190-loop
-4044,197,Q,S,-0.2639,0.08495,5.0,4,epitope-B,RBS 190-loop
-4045,197,Q,T,-0.2054,0.1701,6.0,4,epitope-B,RBS 190-loop
-4046,197,Q,V,-0.781,0.246,7.0,4,epitope-B,RBS 190-loop
-4047,197,Q,W,-2.014,0.1979,14.75,4,epitope-B,RBS 190-loop
-4048,197,Q,Y,-0.9469,0.2412,11.5,4,epitope-B,RBS 190-loop
-4049,198,S,A,-0.6779,0.5002,8.25,4,epitope-B,RBS 190-loop
-4050,198,S,C,-0.8276,0.2813,7.75,4,epitope-B,RBS 190-loop
-4051,198,S,D,-0.1207,0.04809,9.0,4,epitope-B,RBS 190-loop
-4052,198,S,E,0.05278,0.08014,9.0,4,epitope-B,RBS 190-loop
-4053,198,S,F,-0.3148,0.2394,13.0,4,epitope-B,RBS 190-loop
-4054,198,S,G,0.2939,0.258,3.5,4,epitope-B,RBS 190-loop
-4055,198,S,H,-0.2923,0.1047,6.0,4,epitope-B,RBS 190-loop
-4056,198,S,I,0.05037,0.04756,7.0,4,epitope-B,RBS 190-loop
-4057,198,S,K,0.2747,0.29,9.75,4,epitope-B,RBS 190-loop
-4058,198,S,L,-0.3139,0.3158,8.5,4,epitope-B,RBS 190-loop
-4059,198,S,M,0.03862,0.1243,8.5,4,epitope-B,RBS 190-loop
-4060,198,S,N,-0.03731,0.1714,11.5,4,epitope-B,RBS 190-loop
-4061,198,S,P,-0.04936,0.1269,8.0,4,epitope-B,RBS 190-loop
-4062,198,S,Q,0.0666,0.3304,6.0,4,epitope-B,RBS 190-loop
-4063,198,S,R,0.3365,0.2369,10.5,4,epitope-B,RBS 190-loop
-4065,198,S,T,-0.1368,0.2258,10.5,4,epitope-B,RBS 190-loop
-4066,198,S,V,-0.05906,0.1633,6.0,4,epitope-B,RBS 190-loop
-4067,198,S,W,-0.924,0.1516,5.5,4,epitope-B,RBS 190-loop
-4068,198,S,Y,-0.263,0.0748,10.5,4,epitope-B,RBS 190-loop
+4009,196,A,C,-1.088,0.07334,8.5,4,epitope-B,190-helix
+4010,196,A,D,-0.8427,0.1734,12.0,4,epitope-B,190-helix
+4011,196,A,E,-1.153,0.2964,10.5,4,epitope-B,190-helix
+4012,196,A,F,-1.554,0.3652,7.0,4,epitope-B,190-helix
+4013,196,A,G,-0.1612,0.3524,7.5,4,epitope-B,190-helix
+4014,196,A,H,-0.5788,0.2685,12.0,4,epitope-B,190-helix
+4015,196,A,I,-1.574,0.455,8.0,4,epitope-B,190-helix
+4016,196,A,K,-0.8355,0.4737,7.5,4,epitope-B,190-helix
+4017,196,A,L,-1.192,0.3596,7.5,4,epitope-B,190-helix
+4018,196,A,M,-1.896,0.5058,12.0,4,epitope-B,190-helix
+4019,196,A,N,-4.787,0.0,5.5,4,epitope-B,190-helix
+4020,196,A,P,-3.409,0.0,6.5,4,epitope-B,190-helix
+4021,196,A,Q,-0.7295,0.188,9.5,4,epitope-B,190-helix
+4022,196,A,R,-0.3628,0.3106,8.0,4,epitope-B,190-helix
+4023,196,A,S,-0.1682,0.1037,14.5,4,epitope-B,190-helix
+4024,196,A,T,-0.9835,0.07785,16.0,4,epitope-B,190-helix
+4025,196,A,V,-0.6422,0.1076,17.25,4,epitope-B,190-helix
+4026,196,A,W,-2.391,0.298,12.0,4,epitope-B,190-helix
+4027,196,A,Y,-1.764,0.3359,5.5,4,epitope-B,190-helix
+4028,197,Q,*,-4.488,0.0,4.5,4,epitope-B,190-helix
+4030,197,Q,C,-0.2464,0.2761,8.0,4,epitope-B,190-helix
+4031,197,Q,D,-0.3299,0.4156,8.5,4,epitope-B,190-helix
+4032,197,Q,E,-0.7609,0.1791,8.0,4,epitope-B,190-helix
+4033,197,Q,F,-1.365,0.1244,8.0,4,epitope-B,190-helix
+4034,197,Q,G,0.176,0.2815,9.0,4,epitope-B,190-helix
+4035,197,Q,H,-0.5703,0.1605,9.0,4,epitope-B,190-helix
+4036,197,Q,I,0.0274,0.5816,6.5,4,epitope-B,190-helix
+4037,197,Q,K,-0.1135,0.4105,13.5,4,epitope-B,190-helix
+4038,197,Q,L,-1.065,0.7368,9.0,4,epitope-B,190-helix
+4039,197,Q,M,-0.5842,0.08747,7.75,4,epitope-B,190-helix
+4040,197,Q,N,-3.122,0.2935,7.5,4,epitope-B,190-helix
+4041,197,Q,P,-0.9578,0.2184,9.5,4,epitope-B,190-helix
+4043,197,Q,R,0.09168,0.2306,14.25,4,epitope-B,190-helix
+4044,197,Q,S,-0.2639,0.08495,5.0,4,epitope-B,190-helix
+4045,197,Q,T,-0.2054,0.1701,6.0,4,epitope-B,190-helix
+4046,197,Q,V,-0.781,0.246,7.0,4,epitope-B,190-helix
+4047,197,Q,W,-2.014,0.1979,14.75,4,epitope-B,190-helix
+4048,197,Q,Y,-0.9469,0.2412,11.5,4,epitope-B,190-helix
+4049,198,S,A,-0.6779,0.5002,8.25,4,epitope-B,190-helix
+4050,198,S,C,-0.8276,0.2813,7.75,4,epitope-B,190-helix
+4051,198,S,D,-0.1207,0.04809,9.0,4,epitope-B,190-helix
+4052,198,S,E,0.05278,0.08014,9.0,4,epitope-B,190-helix
+4053,198,S,F,-0.3148,0.2394,13.0,4,epitope-B,190-helix
+4054,198,S,G,0.2939,0.258,3.5,4,epitope-B,190-helix
+4055,198,S,H,-0.2923,0.1047,6.0,4,epitope-B,190-helix
+4056,198,S,I,0.05037,0.04756,7.0,4,epitope-B,190-helix
+4057,198,S,K,0.2747,0.29,9.75,4,epitope-B,190-helix
+4058,198,S,L,-0.3139,0.3158,8.5,4,epitope-B,190-helix
+4059,198,S,M,0.03862,0.1243,8.5,4,epitope-B,190-helix
+4060,198,S,N,-0.03731,0.1714,11.5,4,epitope-B,190-helix
+4061,198,S,P,-0.04936,0.1269,8.0,4,epitope-B,190-helix
+4062,198,S,Q,0.0666,0.3304,6.0,4,epitope-B,190-helix
+4063,198,S,R,0.3365,0.2369,10.5,4,epitope-B,190-helix
+4065,198,S,T,-0.1368,0.2258,10.5,4,epitope-B,190-helix
+4066,198,S,V,-0.05906,0.1633,6.0,4,epitope-B,190-helix
+4067,198,S,W,-0.924,0.1516,5.5,4,epitope-B,190-helix
+4068,198,S,Y,-0.263,0.0748,10.5,4,epitope-B,190-helix
 4069,199,S,A,0.3594,0.09226,10.75,4,HA1,outside RBS
 4070,199,S,C,-0.3287,0.5362,6.0,4,HA1,outside RBS
 4071,199,S,D,-0.3825,0.201,10.5,4,HA1,outside RBS
@@ -4153,157 +4153,157 @@
 4513,220,R,V,-0.6773,0.1075,5.0,4,HA1,outside RBS
 4514,220,R,W,0.1295,0.6939,9.0,4,HA1,outside RBS
 4515,220,R,Y,-0.1483,0.3066,8.5,4,HA1,outside RBS
-4517,221,P,A,-0.4331,0.05051,8.5,4,HA1,RBS 220-loop
-4518,221,P,C,-1.845,0.2898,13.5,4,HA1,RBS 220-loop
-4519,221,P,D,-3.578,0.318,7.0,4,HA1,RBS 220-loop
-4520,221,P,E,-3.853,0.0,7.0,4,HA1,RBS 220-loop
-4521,221,P,F,-1.31,0.1264,9.0,4,HA1,RBS 220-loop
-4522,221,P,G,-2.418,0.2097,8.25,4,HA1,RBS 220-loop
-4523,221,P,H,-1.516,0.2889,10.5,4,HA1,RBS 220-loop
-4524,221,P,I,-1.185,0.3776,6.5,4,HA1,RBS 220-loop
-4525,221,P,K,-3.675,0.0,7.0,4,HA1,RBS 220-loop
-4526,221,P,L,-1.204,0.06236,12.75,4,HA1,RBS 220-loop
-4527,221,P,M,-0.7305,0.1764,9.5,4,HA1,RBS 220-loop
-4528,221,P,N,-1.135,0.1626,5.5,4,HA1,RBS 220-loop
-4530,221,P,Q,-1.877,0.2255,10.0,4,HA1,RBS 220-loop
-4531,221,P,R,-1.207,0.2076,4.5,4,HA1,RBS 220-loop
-4532,221,P,S,-0.2332,0.3922,12.25,4,HA1,RBS 220-loop
-4533,221,P,T,-0.002538,0.1908,10.0,4,HA1,RBS 220-loop
-4534,221,P,V,-4.84,0.0,10.0,4,HA1,RBS 220-loop
-4535,221,P,W,-2.95,0.352,8.25,4,HA1,RBS 220-loop
-4536,221,P,Y,-1.839,0.4012,6.5,4,HA1,RBS 220-loop
-4539,222,R,A,-0.477,0.1174,6.0,4,HA1,RBS 220-loop
-4540,222,R,C,-0.7689,0.4467,11.5,4,HA1,RBS 220-loop
-4541,222,R,D,-0.2843,0.2587,4.0,4,HA1,RBS 220-loop
-4542,222,R,E,-1.671,0.2344,8.75,4,HA1,RBS 220-loop
-4543,222,R,F,-1.184,0.119,9.0,4,HA1,RBS 220-loop
-4544,222,R,G,-0.6456,0.2496,13.0,4,HA1,RBS 220-loop
-4545,222,R,H,-0.8156,0.2665,11.5,4,HA1,RBS 220-loop
-4546,222,R,I,-2.167,0.2937,11.0,4,HA1,RBS 220-loop
-4547,222,R,K,-0.6291,0.1011,11.0,4,HA1,RBS 220-loop
-4548,222,R,L,-0.4827,0.2414,7.5,4,HA1,RBS 220-loop
-4549,222,R,M,-1.714,0.4449,6.5,4,HA1,RBS 220-loop
-4550,222,R,N,-1.043,0.2123,8.0,4,HA1,RBS 220-loop
-4551,222,R,P,0.2969,0.0928,8.5,4,HA1,RBS 220-loop
-4552,222,R,Q,-1.211,0.2567,5.0,4,HA1,RBS 220-loop
-4554,222,R,S,-0.4077,0.3055,9.5,4,HA1,RBS 220-loop
-4555,222,R,T,-0.5713,0.1042,8.75,4,HA1,RBS 220-loop
-4556,222,R,V,-1.768,0.3553,8.5,4,HA1,RBS 220-loop
-4557,222,R,W,-4.421,0.0,8.0,4,HA1,RBS 220-loop
-4558,222,R,Y,-1.813,0.4983,11.0,4,HA1,RBS 220-loop
-4560,223,V,A,-1.071,0.3039,8.0,4,HA1,RBS 220-loop
-4561,223,V,C,-0.775,0.7979,2.5,4,HA1,RBS 220-loop
-4562,223,V,D,-0.616,0.1401,7.5,4,HA1,RBS 220-loop
-4563,223,V,E,-0.5726,0.3039,10.5,4,HA1,RBS 220-loop
-4564,223,V,F,-0.3233,0.5076,9.5,4,HA1,RBS 220-loop
-4565,223,V,G,-4.755,0.0,7.5,4,HA1,RBS 220-loop
-4566,223,V,H,-1.245,0.3883,6.5,4,HA1,RBS 220-loop
-4567,223,V,I,-0.8544,0.4996,7.75,4,HA1,RBS 220-loop
-4568,223,V,K,-0.2999,0.3068,5.5,4,HA1,RBS 220-loop
-4569,223,V,L,-0.6331,0.1783,7.0,4,HA1,RBS 220-loop
-4570,223,V,M,0.2359,0.6847,4.5,4,HA1,RBS 220-loop
-4571,223,V,N,-1.275,0.1517,8.25,4,HA1,RBS 220-loop
-4572,223,V,P,-4.986,0.0,7.0,4,HA1,RBS 220-loop
-4573,223,V,Q,-0.3861,0.5219,7.75,4,HA1,RBS 220-loop
-4574,223,V,R,-0.862,0.5612,7.5,4,HA1,RBS 220-loop
-4575,223,V,S,-1.262,0.6139,5.75,4,HA1,RBS 220-loop
-4576,223,V,T,-0.6382,0.2176,8.0,4,HA1,RBS 220-loop
-4578,223,V,W,-0.6445,0.3735,8.0,4,HA1,RBS 220-loop
-4579,223,V,Y,-0.4666,0.3129,10.25,4,HA1,RBS 220-loop
-4581,224,R,A,-0.4694,0.2804,5.5,4,HA1,RBS 220-loop
-4582,224,R,C,-2.14,0.186,4.0,4,HA1,RBS 220-loop
-4583,224,R,D,-1.853,0.91,6.0,4,HA1,RBS 220-loop
-4584,224,R,E,-1.316,0.2553,8.0,4,HA1,RBS 220-loop
-4585,224,R,F,-1.695,0.0804,8.0,4,HA1,RBS 220-loop
-4586,224,R,G,-0.549,0.2869,13.0,4,HA1,RBS 220-loop
-4587,224,R,H,-2.331,0.3113,4.5,4,HA1,RBS 220-loop
-4588,224,R,I,-4.784,0.0,8.0,4,HA1,RBS 220-loop
-4589,224,R,K,-1.219,0.08458,9.0,4,HA1,RBS 220-loop
-4590,224,R,L,-4.942,0.0,6.5,4,HA1,RBS 220-loop
-4591,224,R,M,-3.747,0.0,10.25,4,HA1,RBS 220-loop
-4592,224,R,N,-4.564,0.0,4.0,4,HA1,RBS 220-loop
-4593,224,R,P,-4.873,0.0,7.0,4,HA1,RBS 220-loop
-4594,224,R,Q,-1.224,0.1537,7.5,4,HA1,RBS 220-loop
-4596,224,R,S,-1.237,0.3635,6.5,4,HA1,RBS 220-loop
-4597,224,R,T,-0.7754,0.213,5.75,4,HA1,RBS 220-loop
-4598,224,R,V,-2.064,0.4917,5.25,4,HA1,RBS 220-loop
-4599,224,R,W,-1.139,0.1288,6.0,4,HA1,RBS 220-loop
-4600,224,R,Y,-1.097,0.2749,8.5,4,HA1,RBS 220-loop
-4603,225,D,C,-1.692,0.4448,10.25,4,HA1,RBS 220-loop
-4605,225,D,E,-0.3183,0.1152,8.0,4,HA1,RBS 220-loop
-4606,225,D,F,-1.259,0.2409,8.0,4,HA1,RBS 220-loop
-4607,225,D,G,-2.593,0.2331,7.0,4,HA1,RBS 220-loop
-4608,225,D,H,-1.413,0.1288,8.5,4,HA1,RBS 220-loop
-4609,225,D,I,-2.634,0.232,7.5,4,HA1,RBS 220-loop
-4610,225,D,K,-2.729,0.5679,4.0,4,HA1,RBS 220-loop
-4611,225,D,L,-1.471,0.5903,5.5,4,HA1,RBS 220-loop
-4612,225,D,M,-1.067,0.2836,8.0,4,HA1,RBS 220-loop
-4613,225,D,N,-3.314,0.0175,8.5,4,HA1,RBS 220-loop
-4614,225,D,P,-4.841,0.0,10.0,4,HA1,RBS 220-loop
-4615,225,D,Q,-0.787,0.2158,9.5,4,HA1,RBS 220-loop
-4616,225,D,R,-0.9787,0.2901,5.0,4,HA1,RBS 220-loop
-4617,225,D,S,-1.616,0.6241,7.0,4,HA1,RBS 220-loop
-4618,225,D,T,-3.526,0.2105,6.5,4,HA1,RBS 220-loop
-4619,225,D,V,-2.615,0.2941,11.5,4,HA1,RBS 220-loop
-4620,225,D,W,-1.377,0.3429,11.0,4,HA1,RBS 220-loop
-4621,225,D,Y,-2.995,0.6976,4.5,4,HA1,RBS 220-loop
-4623,226,I,A,-4.72,0.0,6.0,4,HA1,RBS 220-loop
-4624,226,I,C,-4.319,0.281,3.25,4,HA1,RBS 220-loop
-4625,226,I,D,-4.801,0.0,7.5,4,HA1,RBS 220-loop
-4626,226,I,E,-4.927,0.0,10.25,4,HA1,RBS 220-loop
-4627,226,I,F,-4.822,0.0,5.0,4,HA1,RBS 220-loop
-4628,226,I,G,-4.877,0.0,6.0,4,HA1,RBS 220-loop
-4629,226,I,H,-4.812,0.0,6.0,4,HA1,RBS 220-loop
-4631,226,I,K,-4.823,0.0,8.0,4,HA1,RBS 220-loop
-4632,226,I,L,-4.275,0.073,8.0,4,HA1,RBS 220-loop
-4633,226,I,M,-1.338,0.5984,8.75,4,HA1,RBS 220-loop
-4634,226,I,N,-4.736,0.0,9.0,4,HA1,RBS 220-loop
-4635,226,I,P,-4.958,0.3145,3.5,4,HA1,RBS 220-loop
-4636,226,I,Q,-4.349,0.0,8.5,4,HA1,RBS 220-loop
-4637,226,I,R,-4.736,0.0,3.5,4,HA1,RBS 220-loop
-4638,226,I,S,-4.636,0.0,9.5,4,HA1,RBS 220-loop
-4639,226,I,T,-4.803,0.0,7.5,4,HA1,RBS 220-loop
-4640,226,I,V,-2.598,0.453,7.0,4,HA1,RBS 220-loop
-4641,226,I,W,-4.872,0.0,5.5,4,HA1,RBS 220-loop
-4642,226,I,Y,-4.948,0.0,5.5,4,HA1,RBS 220-loop
-4644,227,P,A,-0.06495,0.3457,9.5,4,HA1,RBS 220-loop
-4645,227,P,C,-0.2663,0.282,12.5,4,HA1,RBS 220-loop
-4646,227,P,D,-4.248,0.0,10.0,4,HA1,RBS 220-loop
-4647,227,P,E,0.1473,0.1832,11.5,4,HA1,RBS 220-loop
-4648,227,P,F,-1.457,0.2805,8.5,4,HA1,RBS 220-loop
-4649,227,P,G,-0.07655,0.2147,11.0,4,HA1,RBS 220-loop
-4650,227,P,H,0.2202,0.1057,11.5,4,HA1,RBS 220-loop
-4651,227,P,I,-2.727,0.1953,7.5,4,HA1,RBS 220-loop
-4652,227,P,K,0.1296,0.1933,6.5,4,HA1,RBS 220-loop
-4653,227,P,L,-0.5163,0.1773,11.0,4,HA1,RBS 220-loop
-4654,227,P,M,0.246,0.0538,9.0,4,HA1,RBS 220-loop
-4655,227,P,N,-0.5145,0.5249,3.5,4,HA1,RBS 220-loop
-4657,227,P,Q,0.7008,0.1541,5.0,4,HA1,RBS 220-loop
-4658,227,P,R,-0.01595,0.3549,11.25,4,HA1,RBS 220-loop
-4659,227,P,S,0.4659,0.5831,12.0,4,HA1,RBS 220-loop
-4660,227,P,T,-2.442,0.5119,12.5,4,HA1,RBS 220-loop
-4661,227,P,V,-2.344,0.4633,7.5,4,HA1,RBS 220-loop
-4662,227,P,W,-0.2827,0.1957,10.0,4,HA1,RBS 220-loop
-4663,227,P,Y,-0.8432,0.0701,8.5,4,HA1,RBS 220-loop
-4664,228,S,A,-0.7575,0.1939,7.0,4,HA1,RBS 220-loop
-4665,228,S,C,-4.769,0.0,7.0,4,HA1,RBS 220-loop
-4666,228,S,D,-4.869,0.0,7.5,4,HA1,RBS 220-loop
-4667,228,S,E,-5.068,0.0,9.0,4,HA1,RBS 220-loop
-4668,228,S,F,-4.787,0.0,5.5,4,HA1,RBS 220-loop
-4669,228,S,G,-4.359,0.0,13.75,4,HA1,RBS 220-loop
-4670,228,S,H,-4.931,0.0,5.0,4,HA1,RBS 220-loop
-4671,228,S,I,-4.808,0.0,9.5,4,HA1,RBS 220-loop
-4672,228,S,K,-5.024,0.0,8.5,4,HA1,RBS 220-loop
-4673,228,S,L,-4.96,0.0,10.0,4,HA1,RBS 220-loop
-4674,228,S,M,-5.024,0.0,8.5,4,HA1,RBS 220-loop
-4675,228,S,N,-4.754,0.0,15.0,4,HA1,RBS 220-loop
-4676,228,S,P,-4.838,0.0,6.5,4,HA1,RBS 220-loop
-4677,228,S,Q,-4.934,0.0,6.25,4,HA1,RBS 220-loop
-4678,228,S,R,-4.751,0.0,12.5,4,HA1,RBS 220-loop
-4680,228,S,T,-1.413,0.2606,9.0,4,HA1,RBS 220-loop
-4681,228,S,V,-4.825,0.0,10.0,4,HA1,RBS 220-loop
-4682,228,S,W,-4.87,0.0,4.75,4,HA1,RBS 220-loop
-4683,228,S,Y,-4.803,0.0,7.0,4,HA1,RBS 220-loop
+4517,221,P,A,-0.4331,0.05051,8.5,4,HA1,220-loop
+4518,221,P,C,-1.845,0.2898,13.5,4,HA1,220-loop
+4519,221,P,D,-3.578,0.318,7.0,4,HA1,220-loop
+4520,221,P,E,-3.853,0.0,7.0,4,HA1,220-loop
+4521,221,P,F,-1.31,0.1264,9.0,4,HA1,220-loop
+4522,221,P,G,-2.418,0.2097,8.25,4,HA1,220-loop
+4523,221,P,H,-1.516,0.2889,10.5,4,HA1,220-loop
+4524,221,P,I,-1.185,0.3776,6.5,4,HA1,220-loop
+4525,221,P,K,-3.675,0.0,7.0,4,HA1,220-loop
+4526,221,P,L,-1.204,0.06236,12.75,4,HA1,220-loop
+4527,221,P,M,-0.7305,0.1764,9.5,4,HA1,220-loop
+4528,221,P,N,-1.135,0.1626,5.5,4,HA1,220-loop
+4530,221,P,Q,-1.877,0.2255,10.0,4,HA1,220-loop
+4531,221,P,R,-1.207,0.2076,4.5,4,HA1,220-loop
+4532,221,P,S,-0.2332,0.3922,12.25,4,HA1,220-loop
+4533,221,P,T,-0.002538,0.1908,10.0,4,HA1,220-loop
+4534,221,P,V,-4.84,0.0,10.0,4,HA1,220-loop
+4535,221,P,W,-2.95,0.352,8.25,4,HA1,220-loop
+4536,221,P,Y,-1.839,0.4012,6.5,4,HA1,220-loop
+4539,222,R,A,-0.477,0.1174,6.0,4,HA1,220-loop
+4540,222,R,C,-0.7689,0.4467,11.5,4,HA1,220-loop
+4541,222,R,D,-0.2843,0.2587,4.0,4,HA1,220-loop
+4542,222,R,E,-1.671,0.2344,8.75,4,HA1,220-loop
+4543,222,R,F,-1.184,0.119,9.0,4,HA1,220-loop
+4544,222,R,G,-0.6456,0.2496,13.0,4,HA1,220-loop
+4545,222,R,H,-0.8156,0.2665,11.5,4,HA1,220-loop
+4546,222,R,I,-2.167,0.2937,11.0,4,HA1,220-loop
+4547,222,R,K,-0.6291,0.1011,11.0,4,HA1,220-loop
+4548,222,R,L,-0.4827,0.2414,7.5,4,HA1,220-loop
+4549,222,R,M,-1.714,0.4449,6.5,4,HA1,220-loop
+4550,222,R,N,-1.043,0.2123,8.0,4,HA1,220-loop
+4551,222,R,P,0.2969,0.0928,8.5,4,HA1,220-loop
+4552,222,R,Q,-1.211,0.2567,5.0,4,HA1,220-loop
+4554,222,R,S,-0.4077,0.3055,9.5,4,HA1,220-loop
+4555,222,R,T,-0.5713,0.1042,8.75,4,HA1,220-loop
+4556,222,R,V,-1.768,0.3553,8.5,4,HA1,220-loop
+4557,222,R,W,-4.421,0.0,8.0,4,HA1,220-loop
+4558,222,R,Y,-1.813,0.4983,11.0,4,HA1,220-loop
+4560,223,V,A,-1.071,0.3039,8.0,4,HA1,220-loop
+4561,223,V,C,-0.775,0.7979,2.5,4,HA1,220-loop
+4562,223,V,D,-0.616,0.1401,7.5,4,HA1,220-loop
+4563,223,V,E,-0.5726,0.3039,10.5,4,HA1,220-loop
+4564,223,V,F,-0.3233,0.5076,9.5,4,HA1,220-loop
+4565,223,V,G,-4.755,0.0,7.5,4,HA1,220-loop
+4566,223,V,H,-1.245,0.3883,6.5,4,HA1,220-loop
+4567,223,V,I,-0.8544,0.4996,7.75,4,HA1,220-loop
+4568,223,V,K,-0.2999,0.3068,5.5,4,HA1,220-loop
+4569,223,V,L,-0.6331,0.1783,7.0,4,HA1,220-loop
+4570,223,V,M,0.2359,0.6847,4.5,4,HA1,220-loop
+4571,223,V,N,-1.275,0.1517,8.25,4,HA1,220-loop
+4572,223,V,P,-4.986,0.0,7.0,4,HA1,220-loop
+4573,223,V,Q,-0.3861,0.5219,7.75,4,HA1,220-loop
+4574,223,V,R,-0.862,0.5612,7.5,4,HA1,220-loop
+4575,223,V,S,-1.262,0.6139,5.75,4,HA1,220-loop
+4576,223,V,T,-0.6382,0.2176,8.0,4,HA1,220-loop
+4578,223,V,W,-0.6445,0.3735,8.0,4,HA1,220-loop
+4579,223,V,Y,-0.4666,0.3129,10.25,4,HA1,220-loop
+4581,224,R,A,-0.4694,0.2804,5.5,4,HA1,220-loop
+4582,224,R,C,-2.14,0.186,4.0,4,HA1,220-loop
+4583,224,R,D,-1.853,0.91,6.0,4,HA1,220-loop
+4584,224,R,E,-1.316,0.2553,8.0,4,HA1,220-loop
+4585,224,R,F,-1.695,0.0804,8.0,4,HA1,220-loop
+4586,224,R,G,-0.549,0.2869,13.0,4,HA1,220-loop
+4587,224,R,H,-2.331,0.3113,4.5,4,HA1,220-loop
+4588,224,R,I,-4.784,0.0,8.0,4,HA1,220-loop
+4589,224,R,K,-1.219,0.08458,9.0,4,HA1,220-loop
+4590,224,R,L,-4.942,0.0,6.5,4,HA1,220-loop
+4591,224,R,M,-3.747,0.0,10.25,4,HA1,220-loop
+4592,224,R,N,-4.564,0.0,4.0,4,HA1,220-loop
+4593,224,R,P,-4.873,0.0,7.0,4,HA1,220-loop
+4594,224,R,Q,-1.224,0.1537,7.5,4,HA1,220-loop
+4596,224,R,S,-1.237,0.3635,6.5,4,HA1,220-loop
+4597,224,R,T,-0.7754,0.213,5.75,4,HA1,220-loop
+4598,224,R,V,-2.064,0.4917,5.25,4,HA1,220-loop
+4599,224,R,W,-1.139,0.1288,6.0,4,HA1,220-loop
+4600,224,R,Y,-1.097,0.2749,8.5,4,HA1,220-loop
+4603,225,D,C,-1.692,0.4448,10.25,4,HA1,220-loop
+4605,225,D,E,-0.3183,0.1152,8.0,4,HA1,220-loop
+4606,225,D,F,-1.259,0.2409,8.0,4,HA1,220-loop
+4607,225,D,G,-2.593,0.2331,7.0,4,HA1,220-loop
+4608,225,D,H,-1.413,0.1288,8.5,4,HA1,220-loop
+4609,225,D,I,-2.634,0.232,7.5,4,HA1,220-loop
+4610,225,D,K,-2.729,0.5679,4.0,4,HA1,220-loop
+4611,225,D,L,-1.471,0.5903,5.5,4,HA1,220-loop
+4612,225,D,M,-1.067,0.2836,8.0,4,HA1,220-loop
+4613,225,D,N,-3.314,0.0175,8.5,4,HA1,220-loop
+4614,225,D,P,-4.841,0.0,10.0,4,HA1,220-loop
+4615,225,D,Q,-0.787,0.2158,9.5,4,HA1,220-loop
+4616,225,D,R,-0.9787,0.2901,5.0,4,HA1,220-loop
+4617,225,D,S,-1.616,0.6241,7.0,4,HA1,220-loop
+4618,225,D,T,-3.526,0.2105,6.5,4,HA1,220-loop
+4619,225,D,V,-2.615,0.2941,11.5,4,HA1,220-loop
+4620,225,D,W,-1.377,0.3429,11.0,4,HA1,220-loop
+4621,225,D,Y,-2.995,0.6976,4.5,4,HA1,220-loop
+4623,226,I,A,-4.72,0.0,6.0,4,HA1,220-loop
+4624,226,I,C,-4.319,0.281,3.25,4,HA1,220-loop
+4625,226,I,D,-4.801,0.0,7.5,4,HA1,220-loop
+4626,226,I,E,-4.927,0.0,10.25,4,HA1,220-loop
+4627,226,I,F,-4.822,0.0,5.0,4,HA1,220-loop
+4628,226,I,G,-4.877,0.0,6.0,4,HA1,220-loop
+4629,226,I,H,-4.812,0.0,6.0,4,HA1,220-loop
+4631,226,I,K,-4.823,0.0,8.0,4,HA1,220-loop
+4632,226,I,L,-4.275,0.073,8.0,4,HA1,220-loop
+4633,226,I,M,-1.338,0.5984,8.75,4,HA1,220-loop
+4634,226,I,N,-4.736,0.0,9.0,4,HA1,220-loop
+4635,226,I,P,-4.958,0.3145,3.5,4,HA1,220-loop
+4636,226,I,Q,-4.349,0.0,8.5,4,HA1,220-loop
+4637,226,I,R,-4.736,0.0,3.5,4,HA1,220-loop
+4638,226,I,S,-4.636,0.0,9.5,4,HA1,220-loop
+4639,226,I,T,-4.803,0.0,7.5,4,HA1,220-loop
+4640,226,I,V,-2.598,0.453,7.0,4,HA1,220-loop
+4641,226,I,W,-4.872,0.0,5.5,4,HA1,220-loop
+4642,226,I,Y,-4.948,0.0,5.5,4,HA1,220-loop
+4644,227,P,A,-0.06495,0.3457,9.5,4,HA1,220-loop
+4645,227,P,C,-0.2663,0.282,12.5,4,HA1,220-loop
+4646,227,P,D,-4.248,0.0,10.0,4,HA1,220-loop
+4647,227,P,E,0.1473,0.1832,11.5,4,HA1,220-loop
+4648,227,P,F,-1.457,0.2805,8.5,4,HA1,220-loop
+4649,227,P,G,-0.07655,0.2147,11.0,4,HA1,220-loop
+4650,227,P,H,0.2202,0.1057,11.5,4,HA1,220-loop
+4651,227,P,I,-2.727,0.1953,7.5,4,HA1,220-loop
+4652,227,P,K,0.1296,0.1933,6.5,4,HA1,220-loop
+4653,227,P,L,-0.5163,0.1773,11.0,4,HA1,220-loop
+4654,227,P,M,0.246,0.0538,9.0,4,HA1,220-loop
+4655,227,P,N,-0.5145,0.5249,3.5,4,HA1,220-loop
+4657,227,P,Q,0.7008,0.1541,5.0,4,HA1,220-loop
+4658,227,P,R,-0.01595,0.3549,11.25,4,HA1,220-loop
+4659,227,P,S,0.4659,0.5831,12.0,4,HA1,220-loop
+4660,227,P,T,-2.442,0.5119,12.5,4,HA1,220-loop
+4661,227,P,V,-2.344,0.4633,7.5,4,HA1,220-loop
+4662,227,P,W,-0.2827,0.1957,10.0,4,HA1,220-loop
+4663,227,P,Y,-0.8432,0.0701,8.5,4,HA1,220-loop
+4664,228,S,A,-0.7575,0.1939,7.0,4,HA1,220-loop
+4665,228,S,C,-4.769,0.0,7.0,4,HA1,220-loop
+4666,228,S,D,-4.869,0.0,7.5,4,HA1,220-loop
+4667,228,S,E,-5.068,0.0,9.0,4,HA1,220-loop
+4668,228,S,F,-4.787,0.0,5.5,4,HA1,220-loop
+4669,228,S,G,-4.359,0.0,13.75,4,HA1,220-loop
+4670,228,S,H,-4.931,0.0,5.0,4,HA1,220-loop
+4671,228,S,I,-4.808,0.0,9.5,4,HA1,220-loop
+4672,228,S,K,-5.024,0.0,8.5,4,HA1,220-loop
+4673,228,S,L,-4.96,0.0,10.0,4,HA1,220-loop
+4674,228,S,M,-5.024,0.0,8.5,4,HA1,220-loop
+4675,228,S,N,-4.754,0.0,15.0,4,HA1,220-loop
+4676,228,S,P,-4.838,0.0,6.5,4,HA1,220-loop
+4677,228,S,Q,-4.934,0.0,6.25,4,HA1,220-loop
+4678,228,S,R,-4.751,0.0,12.5,4,HA1,220-loop
+4680,228,S,T,-1.413,0.2606,9.0,4,HA1,220-loop
+4681,228,S,V,-4.825,0.0,10.0,4,HA1,220-loop
+4682,228,S,W,-4.87,0.0,4.75,4,HA1,220-loop
+4683,228,S,Y,-4.803,0.0,7.0,4,HA1,220-loop
 4684,229,R,A,-1.143,0.1117,7.5,4,HA1,outside RBS
 4685,229,R,C,-1.692,0.4801,7.5,4,HA1,outside RBS
 4686,229,R,D,-4.797,0.0,7.5,4,HA1,outside RBS
