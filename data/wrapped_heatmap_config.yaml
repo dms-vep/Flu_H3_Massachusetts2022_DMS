@@ -30,7 +30,7 @@ stability:
 stability_variable_sites:
   data_csv: results/summaries/Phenotypes.csv
   title: Effect of mutations to HA on acid stability at a sites with amino acid variation
-  data_query_str: "site == 196"
+  data_query_str: 'site in ["196", "202", "219", "223", "227", "450", "452"]'
   effect_col: pH stability
   sites_per_row: 130  # how many sites in each row
   site_label_freq: 1  # label sites at this frequency
@@ -43,3 +43,4 @@ stability_variable_sites:
   dark_gray_muts:
     col: MDCKSIAT1 cell entry
     cutoff: -3
+
