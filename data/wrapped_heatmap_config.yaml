@@ -44,3 +44,70 @@ stability_variable_sites:
     col: MDCKSIAT1 cell entry
     cutoff: -3
 
+SCH23-y2009-s002_subset:
+  data_csv: analysis/data/heatmap_data/Phenotypes_per_antibody_escape_with_effects.csv
+  title: Effect of mutations on escape from serum SCH23-y2009-s002
+  data_query_str: 'site in ["131", "140", "145", "157", "165", "167", "189", "196", "201", "205", "219", "220", "221", "229", "244"] and antibody == "SCH23-y2009-s002"'
+  effect_col: escape
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -1  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  # `dark_gray_muts` is optional: if a mutation has the indicated column less than the
+  # indicate cutoff, make dark gray
+  dark_gray_muts:
+    col: MDCKSIAT1 cell entry
+    cutoff: -3
+  
+SCH23-y2009-s007_subset:
+  data_csv: analysis/data/heatmap_data/Phenotypes_per_antibody_escape_with_effects.csv
+  title: Effect of mutations on escape from serum SCH23-y2009-s007
+  data_query_str: 'site in ["131", "140", "145", "157", "165", "167", "189", "196", "201", "205", "219", "220", "221", "229", "244"] and antibody == "SCH23-y2009-s007"'
+  effect_col: escape
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -1  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  # `dark_gray_muts` is optional: if a mutation has the indicated column less than the
+  # indicate cutoff, make dark gray
+  dark_gray_muts:
+    col: MDCKSIAT1 cell entry
+    cutoff: -3
+
+SCH23-y2016-s037_subset:
+  data_csv: analysis/data/heatmap_data/Phenotypes_per_antibody_escape_with_effects.csv
+  title: Effect of mutations on escape from serum SCH23-y2016-s037
+  data_query_str: 'site in ["131", "140", "145", "157", "165", "167", "189", "196", "201", "205", "219", "220", "221", "229", "244"] and antibody == "SCH23-y2016-s037"'
+  effect_col: escape
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -1  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  # `dark_gray_muts` is optional: if a mutation has the indicated column less than the
+  # indicate cutoff, make dark gray
+  dark_gray_muts:
+    col: MDCKSIAT1 cell entry
+    cutoff: -3
+
+SCH23-y2021-s056_subset:
+  data_csv: analysis/data/heatmap_data/Phenotypes_per_antibody_escape_with_effects.csv
+  title: Effect of mutations on escape from serum SCH23-y2021-s056
+  data_query_str: 'site in ["131", "140", "145", "157", "165", "167", "189", "196", "201", "205", "219", "220", "221", "229", "244"] and antibody == "SCH23-y2021-s056"'
+  effect_col: escape
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -1  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  # `dark_gray_muts` is optional: if a mutation has the indicated column less than the
+  # indicate cutoff, make dark gray
+  dark_gray_muts:
+    col: MDCKSIAT1 cell entry
+    cutoff: -3

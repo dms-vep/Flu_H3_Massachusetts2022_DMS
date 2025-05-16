@@ -42,7 +42,7 @@ rule wrapped_heatmap:
     notebook:
         "analysis/wrapped_heatmap.ipynb"
 
-docs["Row-wrapped heatmaps"] = {
+docs["Heatmaps"] = {
     "Heatmap HTMLs" : {
         wrapped_hm: rules.wrapped_heatmap.output.chart_html.format(wrapped_hm=wrapped_hm)
         for wrapped_hm in wrapped_heatmap_config
