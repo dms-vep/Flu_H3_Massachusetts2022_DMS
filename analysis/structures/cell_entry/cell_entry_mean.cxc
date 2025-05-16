@@ -1,0 +1,65 @@
+# open PDB file
+open ../pdbs/4o5n_mod.pdb
+
+# setup the view so cartoons look nicer, and hide everything to start from scratch.
+preset cartoons/nucleotides licorice/ovals
+hide atoms
+hide cartoon
+
+# Set lighting and graphics
+lighting qualityOfShadows finer
+graphics quality 4
+lighting flat
+set bgColor white
+
+# Use silhouettes
+# graphics silhouettes true
+# graphics silhouettes width 1.5
+
+# If you want to show cartoons, can adjust the width and thickness.
+cartoon style width 1.5 thickness 1.5
+
+# Show the surface of chain A, with a probeRadius of 2 to hide any holes.
+surface /A probeRadius 2
+show /A surface
+color /A dimgray
+
+# Show the surface of chain B, with a probeRadius of 2 to hide any holes.
+surface /B probeRadius 2
+show /B surface
+color /B dimgray
+
+# Show the surface of chain C, with a probeRadius of 2 to hide any holes.
+show /C cartoon
+hide /C surface
+
+# Show the surface of chain D, with a probeRadius of 2 to hide any holes.
+show /D cartoon
+hide /D surface
+
+# Show the surface of chain E, with a probeRadius of 2 to hide any holes.
+surface /E probeRadius 2
+show /E surface
+color /E dimgray
+
+# Show the surface of chain F, with a probeRadius of 2 to hide any holes.
+surface /F probeRadius 2
+show /F surface
+color /F dimgray
+
+# Open the .defattr file we made earlier with the mean effects of mutations.
+open cell_entry_mean.defattr
+
+# Color the surface of the protein by the mean effects of mutations. Can adjust the domain or the colors used.
+color byattr entry palette -5,#800000:0,white:1,white
+
+open 2yp4
+hide atoms
+show :SIA
+style stick
+matchmaker #!2 to #1
+hide #2 cartoons
+color :SIA #155F83
+
+# Save the image with a transparent background and a high resolution.
+# save MA22_MDCKSIAT1_entry_mean.png supersample 3 transparentBackground true height 3000 width 3000

@@ -1,0 +1,51 @@
+# open PDB file
+open 6Y5H
+
+# setup the view so cartoons look nicer, and hide everything to start from scratch.
+preset cartoons/nucleotides licorice/ovals
+hide atoms
+hide cartoon
+
+# Set lighting and graphics
+lighting qualityOfShadows finer
+graphics quality 4
+lighting flat
+set bgColor white
+
+# Use silhouettes
+graphics silhouettes true
+graphics silhouettes width 1
+
+# If you want to show cartoons, can adjust the width and thickness.
+cartoon style width 1.5 thickness 1.5
+
+# Show the surface of chain A, with a probeRadius of 2 to hide any holes.
+surface /A probeRadius 2
+hide /A surface
+show /A cartoon
+
+# Show the surface of chain C, with a probeRadius of 2 to hide any holes.
+surface /C probeRadius 2
+hide /C surface
+show /C cartoon
+
+surface /E probeRadius 2
+show /E surface 
+color /E #D6D6CE surface
+
+hide /B surface
+hide /D surface
+hide /F surface
+
+# Open the .defattr file we made earlier with the mean effects of mutations.
+open stability_mean_stateI.defattr
+
+# Color the surface of the protein by the mean effects of mutations. Can adjust the domain or the colors used.
+color byattr r:stability /A,C target c palette -0.4,#00441B:0,white:1,white
+
+transparency /C 70 target s
+
+# Save the image with a transparent background and a high resolution.
+# save MA22_stability_mean.png supersample 3 transparentBackground true height 3000 width 3000
+
+# select /A:130-250 /C:162-169 /C:241-248 /C:201-213
