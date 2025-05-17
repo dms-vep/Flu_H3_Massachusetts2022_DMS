@@ -48,3 +48,24 @@ docs["Heatmaps"] = {
         for wrapped_hm in wrapped_heatmap_config
     }
 }
+
+# Entrenchment analysis -------------------------------------------------------------
+rule entrenchment_analysis:
+    """Perform entrenchment analysis using 60y subsampled tree."""
+    input:
+        phenotypes_and_freqs="analysis/results/h3n2_ha_60y_phenotypes_df.csv",
+        site_numbering_map=config["site_numbering_map"],
+    output: 
+        chart_html="results/entrenchment/entrenchment.html",
+        nb="results/notebooks/entrenchment.ipynb"
+    log:
+        notebook="results/notebooks/entrenchment.ipynb",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml"),
+    notebook:
+        "analysis/entrenchment.ipynb"
+
+docs["Entrenchment"] = {
+    "Notebook for analyzing entrenchment" : rules.entrenchment_analysis.output.nb,
+    "Plot visualizing entrenchment of mutation effects" : rules.entrenchment_analysis.output.chart_html,
+}
