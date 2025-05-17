@@ -66,6 +66,10 @@ rule entrenchment_analysis:
         "analysis/entrenchment.ipynb"
 
 docs["Entrenchment"] = {
-    "Notebook for analyzing entrenchment" : rules.entrenchment_analysis.output.nb,
-    "Plot visualizing entrenchment of mutation effects" : rules.entrenchment_analysis.output.chart_html,
+    "Final summary plots" : {
+        "Plot visualizing entrenchment": rules.entrenchment_analysis.output.chart_html
+    },
+    "Analysis notebooks" : {
+        "Notebook analyzing entrenchment": rules.entrenchment_analysis.output.nb
+    }
 }
