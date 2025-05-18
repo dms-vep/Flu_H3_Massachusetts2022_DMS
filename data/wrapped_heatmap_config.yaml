@@ -1,6 +1,6 @@
 entry_MDCKSIAT1:
   data_csv: results/summaries/Phenotypes.csv
-  title: Effect of mutations to HA on entry into MDCK-SIAT1 cells
+  title: Effects of mutations on HA-mediated entry into MDCK-SIAT1 cells
   data_query_str: ""
   effect_col: MDCKSIAT1 cell entry
   sites_per_row: 130  # how many sites in each row
@@ -12,7 +12,7 @@ entry_MDCKSIAT1:
 
 stability:
   data_csv: results/summaries/Phenotypes.csv
-  title: Effect of mutations to HA on acid stability
+  title: Effects of mutations on HA acid stability
   data_query_str: ""
   effect_col: pH stability
   sites_per_row: 130  # how many sites in each row

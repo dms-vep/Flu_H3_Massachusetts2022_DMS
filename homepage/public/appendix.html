@@ -1,0 +1,323 @@
+<h1 id="deep-mutational-scanning-of-amassachusetts182022-h3n2-hemagglutinin">Deep mutational scanning of A/Massachusetts/18/2022 (H3N2) hemagglutinin</h1>
+<p>Analysis by Timothy Yu and Jesse Bloom (2024)</p>
+<p>See <a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS">https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS</a> for full code.</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
+<li><a href="#antibodyserum-escape">Antibody/serum escape</a></li>
+<li><a href="#stability">Stability</a></li>
+<li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#heatmaps">Heatmaps</a></li>
+<li><a href="#entrenchment">Entrenchment</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_pacbio_ccs.html">Analysis of PacBio CCSs</a></li>
+<li><a href="notebooks/build_pacbio_consensus.html">Building barcoded variant consensus sequences</a></li>
+<li><a href="notebooks/build_codon_variants.html">Building of codon-variant table</a></li>
+</ul>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240609-no-antibody-1_counts.csv">A-240609-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240609-no-antibody-2_counts.csv">A-240609-no-antibody-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240609-VSVG-1_counts.csv">A-240609-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240609-VSVG-2_counts.csv">A-240609-VSVG-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240609-no-antibody-1_counts.csv">B-240609-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240609-no-antibody-2_counts.csv">B-240609-no-antibody-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240609-VSVG-1_counts.csv">B-240609-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240609-VSVG-2_counts.csv">B-240609-VSVG-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-no-antibody-1_counts.csv">A-240628-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-no-antibody-2_counts.csv">A-240628-no-antibody-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2021-s056-0.00165_counts.csv">A-240628-SCH23-y2021-s056-0.00165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2021-s056-0.00495_counts.csv">A-240628-SCH23-y2021-s056-0.00495</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2021-s056-0.0066_counts.csv">A-240628-SCH23-y2021-s056-0.0066</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2021-s056-0.0165_counts.csv">A-240628-SCH23-y2021-s056-0.0165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2016-s037-0.00121_counts.csv">A-240628-SCH23-y2016-s037-0.00121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2016-s037-0.00363_counts.csv">A-240628-SCH23-y2016-s037-0.00363</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2016-s037-0.00484_counts.csv">A-240628-SCH23-y2016-s037-0.00484</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240628-SCH23-y2016-s037-0.0121_counts.csv">A-240628-SCH23-y2016-s037-0.0121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s002-0.0038_counts.csv">A-240808-SCH23-y2009-s002-0.0038</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s002-0.0154_counts.csv">A-240808-SCH23-y2009-s002-0.0154</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s002-0.0307_counts.csv">A-240808-SCH23-y2009-s002-0.0307</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s002-0.0614_counts.csv">A-240808-SCH23-y2009-s002-0.0614</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s007-0.0108_counts.csv">A-240808-SCH23-y2009-s007-0.0108</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s007-0.0324_counts.csv">A-240808-SCH23-y2009-s007-0.0324</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s007-0.0540_counts.csv">A-240808-SCH23-y2009-s007-0.0540</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-SCH23-y2009-s007-0.1080_counts.csv">A-240808-SCH23-y2009-s007-0.1080</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-no-antibody-1_counts.csv">A-240808-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240808-no-antibody-2_counts.csv">A-240808-no-antibody-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2021-s056-0.00165_counts.csv">B-240822-SCH23-y2021-s056-0.00165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2021-s056-0.0066_counts.csv">B-240822-SCH23-y2021-s056-0.0066</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2021-s056-0.0165_counts.csv">B-240822-SCH23-y2021-s056-0.0165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2016-s037-0.00121_counts.csv">B-240822-SCH23-y2016-s037-0.00121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2016-s037-0.0048_counts.csv">B-240822-SCH23-y2016-s037-0.0048</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2016-s037-0.0121_counts.csv">B-240822-SCH23-y2016-s037-0.0121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s002-0.0038_counts.csv">B-240822-SCH23-y2009-s002-0.0038</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s002-0.0154_counts.csv">B-240822-SCH23-y2009-s002-0.0154</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s002-0.0307_counts.csv">B-240822-SCH23-y2009-s002-0.0307</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s007-0.0108_counts.csv">B-240822-SCH23-y2009-s007-0.0108</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s007-0.0324_counts.csv">B-240822-SCH23-y2009-s007-0.0324</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-SCH23-y2009-s007-0.0540_counts.csv">B-240822-SCH23-y2009-s007-0.0540</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-no-antibody-1_counts.csv">B-240822-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240822-no-antibody-2_counts.csv">B-240822-no-antibody-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-no-antibody-1_counts.csv">A-240928-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-pH-6.1_counts.csv">A-240928-pH-6.1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-pH-5.9_counts.csv">A-240928-pH-5.9</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-pH-5.7_counts.csv">A-240928-pH-5.7</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-pH-5.5_counts.csv">A-240928-pH-5.5</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/A-240928-pH-5.3_counts.csv">A-240928-pH-5.3</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-no-antibody-1_counts.csv">B-240928-no-antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-pH-6.1_counts.csv">B-240928-pH-6.1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-pH-5.9_counts.csv">B-240928-pH-5.9</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-pH-5.7_counts.csv">B-240928-pH-5.7</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-pH-5.5_counts.csv">B-240928-pH-5.5</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/barcode_counts/B-240928-pH-5.3_counts.csv">B-240928-pH-5.3</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/MDCKSIAT1_entry_func_effects.html">MDCKSIAT1_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation latent-phenotype effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/MDCKSIAT1_entry_latent_effects.html">MDCKSIAT1_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_LibA-240609-MDCKSIAT1-func-1.html">LibA-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibA-240609-MDCKSIAT1-func-2.html">LibA-240609-MDCKSIAT1-func-2</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-240609-MDCKSIAT1-func-1.html">LibB-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-240609-MDCKSIAT1-func-2.html">LibB-240609-MDCKSIAT1-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_MDCKSIAT1_entry.html">MDCKSIAT1_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_scores/LibA-240609-MDCKSIAT1-func-1_func_scores.csv">LibA-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_scores/LibA-240609-MDCKSIAT1-func-2_func_scores.csv">LibA-240609-MDCKSIAT1-func-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_scores/LibB-240609-MDCKSIAT1-func-1_func_scores.csv">LibB-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_scores/LibB-240609-MDCKSIAT1-func-2_func_scores.csv">LibB-240609-MDCKSIAT1-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/by_selection/LibA-240609-MDCKSIAT1-func-1_func_effects.csv">LibA-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/by_selection/LibA-240609-MDCKSIAT1-func-2_func_effects.csv">LibA-240609-MDCKSIAT1-func-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/by_selection/LibB-240609-MDCKSIAT1-func-1_func_effects.csv">LibB-240609-MDCKSIAT1-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/by_selection/LibB-240609-MDCKSIAT1-func-2_func_effects.csv">LibB-240609-MDCKSIAT1-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/averages/MDCKSIAT1_entry_func_effects.csv">MDCKSIAT1_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/func_effects/averages/MDCKSIAT1_entry_func_effects.csv">MDCKSIAT1_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="antibodyserum-escape">Antibody/serum escape</h2>
+<h4 id="final-summary-plots_1">Final summary plots</h4>
+<ul>
+<li><details><summary>antibody escape mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/SCH23-y2021-s056_mut_effect.html">SCH23-y2021-s056</a></li>
+<li><a href="htmls/SCH23-y2016-s037_mut_effect.html">SCH23-y2016-s037</a></li>
+<li><a href="htmls/SCH23-y2009-s002_mut_effect.html">SCH23-y2009-s002</a></li>
+<li><a href="htmls/SCH23-y2009-s007_mut_effect.html">SCH23-y2009-s007</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_3">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual antibody escape selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_antibody_escape_A-240628-SCH23-y2021-s056.html">A-240628-SCH23-y2021-s056</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-240822-SCH23-y2021-s056.html">B-240822-SCH23-y2021-s056</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_A-240628-SCH23-y2016-s037.html">A-240628-SCH23-y2016-s037</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-240822-SCH23-y2016-s037.html">B-240822-SCH23-y2016-s037</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_A-240808-SCH23-y2009-s002.html">A-240808-SCH23-y2009-s002</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-240822-SCH23-y2009-s002.html">B-240822-SCH23-y2009-s002</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_A-240808-SCH23-y2009-s007.html">A-240808-SCH23-y2009-s007</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-240822-SCH23-y2009-s007.html">B-240822-SCH23-y2009-s007</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for antibody escape (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_antibody_escape_SCH23-y2021-s056.html">SCH23-y2021-s056</a></li>
+<li><a href="notebooks/avg_escape_antibody_escape_SCH23-y2016-s037.html">SCH23-y2016-s037</a></li>
+<li><a href="notebooks/avg_escape_antibody_escape_SCH23-y2009-s002.html">SCH23-y2009-s002</a></li>
+<li><a href="notebooks/avg_escape_antibody_escape_SCH23-y2009-s007.html">SCH23-y2009-s007</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_3">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each antibody escape selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2021-s056/A-240628-SCH23-y2021-s056-0.00165_prob_escape.csv">A-240628-SCH23-y2021-s056 A-240628-SCH23-y2021-s056-0.00165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2021-s056/A-240628-SCH23-y2021-s056-0.00495_prob_escape.csv">A-240628-SCH23-y2021-s056 A-240628-SCH23-y2021-s056-0.00495</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2021-s056/A-240628-SCH23-y2021-s056-0.0066_prob_escape.csv">A-240628-SCH23-y2021-s056 A-240628-SCH23-y2021-s056-0.0066</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2021-s056/A-240628-SCH23-y2021-s056-0.0165_prob_escape.csv">A-240628-SCH23-y2021-s056 A-240628-SCH23-y2021-s056-0.0165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2021-s056/B-240822-SCH23-y2021-s056-0.00165_prob_escape.csv">B-240822-SCH23-y2021-s056 B-240822-SCH23-y2021-s056-0.00165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2021-s056/B-240822-SCH23-y2021-s056-0.0066_prob_escape.csv">B-240822-SCH23-y2021-s056 B-240822-SCH23-y2021-s056-0.0066</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2021-s056/B-240822-SCH23-y2021-s056-0.0165_prob_escape.csv">B-240822-SCH23-y2021-s056 B-240822-SCH23-y2021-s056-0.0165</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2016-s037/A-240628-SCH23-y2016-s037-0.00121_prob_escape.csv">A-240628-SCH23-y2016-s037 A-240628-SCH23-y2016-s037-0.00121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2016-s037/A-240628-SCH23-y2016-s037-0.00363_prob_escape.csv">A-240628-SCH23-y2016-s037 A-240628-SCH23-y2016-s037-0.00363</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2016-s037/A-240628-SCH23-y2016-s037-0.00484_prob_escape.csv">A-240628-SCH23-y2016-s037 A-240628-SCH23-y2016-s037-0.00484</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240628-SCH23-y2016-s037/A-240628-SCH23-y2016-s037-0.0121_prob_escape.csv">A-240628-SCH23-y2016-s037 A-240628-SCH23-y2016-s037-0.0121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2016-s037/B-240822-SCH23-y2016-s037-0.00121_prob_escape.csv">B-240822-SCH23-y2016-s037 B-240822-SCH23-y2016-s037-0.00121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2016-s037/B-240822-SCH23-y2016-s037-0.0048_prob_escape.csv">B-240822-SCH23-y2016-s037 B-240822-SCH23-y2016-s037-0.0048</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2016-s037/B-240822-SCH23-y2016-s037-0.0121_prob_escape.csv">B-240822-SCH23-y2016-s037 B-240822-SCH23-y2016-s037-0.0121</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s002/A-240808-SCH23-y2009-s002-0.0038_prob_escape.csv">A-240808-SCH23-y2009-s002 A-240808-SCH23-y2009-s002-0.0038</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s002/A-240808-SCH23-y2009-s002-0.0154_prob_escape.csv">A-240808-SCH23-y2009-s002 A-240808-SCH23-y2009-s002-0.0154</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s002/A-240808-SCH23-y2009-s002-0.0307_prob_escape.csv">A-240808-SCH23-y2009-s002 A-240808-SCH23-y2009-s002-0.0307</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s002/A-240808-SCH23-y2009-s002-0.0614_prob_escape.csv">A-240808-SCH23-y2009-s002 A-240808-SCH23-y2009-s002-0.0614</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s002/B-240822-SCH23-y2009-s002-0.0038_prob_escape.csv">B-240822-SCH23-y2009-s002 B-240822-SCH23-y2009-s002-0.0038</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s002/B-240822-SCH23-y2009-s002-0.0154_prob_escape.csv">B-240822-SCH23-y2009-s002 B-240822-SCH23-y2009-s002-0.0154</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s002/B-240822-SCH23-y2009-s002-0.0307_prob_escape.csv">B-240822-SCH23-y2009-s002 B-240822-SCH23-y2009-s002-0.0307</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s007/A-240808-SCH23-y2009-s007-0.0108_prob_escape.csv">A-240808-SCH23-y2009-s007 A-240808-SCH23-y2009-s007-0.0108</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s007/A-240808-SCH23-y2009-s007-0.0324_prob_escape.csv">A-240808-SCH23-y2009-s007 A-240808-SCH23-y2009-s007-0.0324</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s007/A-240808-SCH23-y2009-s007-0.0540_prob_escape.csv">A-240808-SCH23-y2009-s007 A-240808-SCH23-y2009-s007-0.0540</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/A-240808-SCH23-y2009-s007/A-240808-SCH23-y2009-s007-0.1080_prob_escape.csv">A-240808-SCH23-y2009-s007 A-240808-SCH23-y2009-s007-0.1080</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s007/B-240822-SCH23-y2009-s007-0.0108_prob_escape.csv">B-240822-SCH23-y2009-s007 B-240822-SCH23-y2009-s007-0.0108</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s007/B-240822-SCH23-y2009-s007-0.0324_prob_escape.csv">B-240822-SCH23-y2009-s007 B-240822-SCH23-y2009-s007-0.0324</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/by_selection/B-240822-SCH23-y2009-s007/B-240822-SCH23-y2009-s007-0.0540_prob_escape.csv">B-240822-SCH23-y2009-s007 B-240822-SCH23-y2009-s007-0.0540</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>antibody escape CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/averages/SCH23-y2021-s056_mut_effect.csv">SCH23-y2021-s056</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/averages/SCH23-y2016-s037_mut_effect.csv">SCH23-y2016-s037</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/averages/SCH23-y2009-s002_mut_effect.csv">SCH23-y2009-s002</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/antibody_escape/averages/SCH23-y2009-s007_mut_effect.csv">SCH23-y2009-s007</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="stability">Stability</h2>
+<h4 id="final-summary-plots_2">Final summary plots</h4>
+<ul>
+<li><details><summary>stability mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/stability_mut_effect.html">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_4">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual stability selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_stability_LibA-240928-pH.html">LibA-240928-pH</a></li>
+<li><a href="notebooks/fit_escape_stability_LibB-240928-pH.html">LibB-240928-pH</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for stability (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_stability_stability.html">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_4">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each stability selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibA-240928-pH/A-240928-pH-6.1_prob_escape.csv">LibA-240928-pH A-240928-pH-6.1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibA-240928-pH/A-240928-pH-5.9_prob_escape.csv">LibA-240928-pH A-240928-pH-5.9</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibA-240928-pH/A-240928-pH-5.7_prob_escape.csv">LibA-240928-pH A-240928-pH-5.7</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibA-240928-pH/A-240928-pH-5.5_prob_escape.csv">LibA-240928-pH A-240928-pH-5.5</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibA-240928-pH/A-240928-pH-5.3_prob_escape.csv">LibA-240928-pH A-240928-pH-5.3</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibB-240928-pH/B-240928-pH-6.1_prob_escape.csv">LibB-240928-pH B-240928-pH-6.1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibB-240928-pH/B-240928-pH-5.9_prob_escape.csv">LibB-240928-pH B-240928-pH-5.9</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibB-240928-pH/B-240928-pH-5.7_prob_escape.csv">LibB-240928-pH B-240928-pH-5.7</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibB-240928-pH/B-240928-pH-5.5_prob_escape.csv">LibB-240928-pH B-240928-pH-5.5</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/by_selection/LibB-240928-pH/B-240928-pH-5.3_prob_escape.csv">LibB-240928-pH B-240928-pH-5.3</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>stability CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/stability/averages/stability_mut_effect.csv">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="integrated-summary-plots">Integrated summary plots</h2>
+<h4 id="phenotypes">Phenotypes</h4>
+<ul>
+<li><a href="htmls/Phenotypes_overlaid.html">Summary plot (escape overlaid)</a></li>
+<li><a href="htmls/Phenotypes_faceted.html">Summary plot (escape faceted)</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/summaries/Phenotypes.csv">CSV summarizing results</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/results/summaries/Phenotypes_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
+</ul>
+<h2 id="heatmaps">Heatmaps</h2>
+<h4 id="heatmap-htmls">Heatmap HTMLs</h4>
+<ul>
+<li><a href="htmls/entry_MDCKSIAT1_wrapped_heatmap.html">entry_MDCKSIAT1</a></li>
+<li><a href="htmls/stability_wrapped_heatmap.html">stability</a></li>
+<li><a href="htmls/stability_variable_sites_wrapped_heatmap.html">stability_variable_sites</a></li>
+<li><a href="htmls/SCH23-y2009-s002_subset_wrapped_heatmap.html">SCH23-y2009-s002_subset</a></li>
+<li><a href="htmls/SCH23-y2009-s007_subset_wrapped_heatmap.html">SCH23-y2009-s007_subset</a></li>
+<li><a href="htmls/SCH23-y2016-s037_subset_wrapped_heatmap.html">SCH23-y2016-s037_subset</a></li>
+<li><a href="htmls/SCH23-y2021-s056_subset_wrapped_heatmap.html">SCH23-y2021-s056_subset</a></li>
+</ul>
+<h2 id="entrenchment">Entrenchment</h2>
+<h4 id="final-summary-plots_3">Final summary plots</h4>
+<ul>
+<li><a href="htmls/entrenchment.html">Plot visualizing entrenchment</a></li>
+</ul>
+<h4 id="analysis-notebooks_5">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/entrenchment.html">Notebook analyzing entrenchment</a></li>
+</ul>

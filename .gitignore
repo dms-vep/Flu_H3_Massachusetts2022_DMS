@@ -74,3 +74,8 @@ results/dms_viz/*
 !results/dms_viz/*.json
 
 scratch_notebooks/*.html
+
+node_modules/
+!homepage/.vitepress/
+homepage/.vitepress/cache/
+homepage/.vitepress/dist/
