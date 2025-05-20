@@ -12,6 +12,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "Cell entry", link: "/cell_entry" },
+      { text: "Acid stability", link: "/acid_stability" },
+      { text: "Sera neutralization", link: "/sera_neutralization" },
+      { text: "Entrenchment", link: "/entrenchment" },
+      { text: "Summary", link: "/summary" },
       { text: "Appendix", link: "/appendix", target: "_self" },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS" }],
