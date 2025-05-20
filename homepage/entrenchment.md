@@ -18,4 +18,4 @@ Click on the expansion box in the upper right of the plot to enlarge for easier 
 </Figure>
 
 ## Numerical values
-The numerical data plotted on this page can be found [here](https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/analysis/results/h3n2_ha_60y_frequencies_df.csv).
+The numerical data plotted on this page can be found [here](https://github.com/dms-vep/Flu_H3_Massachusetts2022_DMS/blob/main/analysis/results/h3n2_ha_60y_phenotypes_df.csv).

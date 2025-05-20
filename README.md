@@ -1,6 +1,10 @@
 # Pseudovirus deep mutational scanning of A/Massachusetts/18/2022 (H3N2) hemagglutinin
 Study by Timothy Yu and Jesse Bloom.
 
+This repo contains data and code from deep mutational scanning experiments on H3 hemagglutinin.
+
+For user-friendly links to interactive visualization of the data and key numerical results, see https://dms-vep.org/Flu_H3_Massachusetts2022_DMS/.
+
 ## Organization of this repo
 
 ### `dms-vep-pipeline-3` submodule
@@ -32,7 +36,7 @@ Due to space, only some results are tracked. For those that are not, see the [.g
 The pipeline builds HTML documentation for the pipeline in [./docs/](docs). These docs are rendered for viewing at [https://dms-vep.org/Flu_H3_Massachusetts2022_DMS/](https://dms-vep.org/Flu_H3_Massachusetts2022_DMS/).
 
 ### Non-pipeline analyses
-All other non-pipeline analyses are contained in [./analysis/](analysis). The notebooks in this directory are not part of the main pipeline but have been used to generate files used as input for the pipeline.
+All other non-pipeline analyses are contained in [./analysis/](analysis) and [./validations/](validations). The notebooks in this directory are not part of the main pipeline but have been used to generate files used as input for the pipeline.
 
 ## Running the pipeline
 To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `environment.yml` file of [dms-vep-pipeline-3](https://github.com/dms-vep/dms-vep-pipeline-3), activate it, and run [snakemake](https://snakemake.readthedocs.io/), such as:
