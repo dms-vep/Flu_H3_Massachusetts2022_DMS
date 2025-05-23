@@ -1,0 +1,78 @@
+# open PDB file
+open ../pdbs/4o5n_mod.pdb
+
+# setup the view so cartoons look nicer, and hide everything to start from scratch.
+preset cartoons/nucleotides licorice/ovals
+hide atoms
+hide cartoon
+
+# Set lighting and graphics
+lighting qualityOfShadows finer
+graphics quality 4
+lighting flat
+set bgColor white
+
+# Use silhouettes
+graphics silhouettes true
+graphics silhouettes depthJump 0.01 width 4
+
+# If you want to show cartoons, can adjust the width and thickness.
+cartoon style width 1 thickness 1
+
+# Show the surface of chain A, with a probeRadius of 2 to hide any holes.
+surface /A probeRadius 2
+show /A surface
+color /A white
+
+# Show the surface of chain B, with a probeRadius of 2 to hide any holes.
+surface /B probeRadius 2
+show /B surface
+color /B white
+
+# Show the surface of chain C, with a probeRadius of 2 to hide any holes.
+surface /C probeRadius 2
+show /C surface
+color /C white
+
+# Show the surface of chain D, with a probeRadius of 2 to hide any holes.
+surface /D probeRadius 2
+show /D surface
+color /D white
+
+# Show the surface of chain E, with a probeRadius of 2 to hide any holes.
+surface /E probeRadius 2
+show /E surface
+color /E white
+
+# Show the surface of chain F, with a probeRadius of 2 to hide any holes.
+surface /F probeRadius 2
+show /F surface
+color /F white
+
+# Color epitope A on the chains
+color /A:122-146 #8175AA
+color /C:122-146 #8175AA
+color /E:122-146 #8175AA
+
+# Color epitope B on the chains
+color /A:155-160,186-198 #6FB899
+color /C:155-160,186-198 #6FB899
+color /E:155-160,186-198 #6FB899
+
+# Color epitope C on the chains
+color /A:44-54,273-280 #31A1B3
+color /C:44-54,273-280 #31A1B3
+color /E:44-54,273-280 #31A1B3
+
+# Color epitope D on the chains
+color /A:166-181,201-219 #CCB22B
+color /C:166-181,201-219 #CCB22B
+color /E:166-181,201-219 #CCB22B
+# Color epitope E on the chains
+
+color /A:62-65,78-94,260-265 #BB7693
+color /C:62-65,78-94,260-265 #BB7693
+color /E:62-65,78-94,260-265 #BB7693
+
+# Save the image with a transparent background and a high resolution.
+# save H3_antigenic_sites.png supersample 3 transparentBackground true height 3000 width 3000

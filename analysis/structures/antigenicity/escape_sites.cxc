@@ -1,0 +1,58 @@
+# open PDB file
+open ../pdbs/4o5n_mod.pdb
+
+# setup the view so cartoons look nicer, and hide everything to start from scratch.
+preset cartoons/nucleotides licorice/ovals
+hide atoms
+hide cartoon
+
+# Set lighting and graphics
+lighting qualityOfShadows finer
+graphics quality 4
+lighting flat
+set bgColor white
+
+# Use silhouettes
+graphics silhouettes true
+graphics silhouettes depthJump 0.01 width 4
+
+# If you want to show cartoons, can adjust the width and thickness.
+cartoon style width 1 thickness 1
+
+# Show the surface of chain A, with a probeRadius of 2 to hide any holes.
+surface /A probeRadius 2
+show /A surface
+color /A white
+
+# Show the surface of chain B, with a probeRadius of 2 to hide any holes.
+surface /B probeRadius 2
+show /B surface
+color /B white
+
+# Show the surface of chain C, with a probeRadius of 2 to hide any holes.
+surface /C probeRadius 2
+show /C surface
+color /C white
+
+# Show the surface of chain D, with a probeRadius of 2 to hide any holes.
+surface /D probeRadius 2
+show /D surface
+color /D white
+
+# Show the surface of chain E, with a probeRadius of 2 to hide any holes.
+surface /E probeRadius 2
+show /E surface
+color /E white
+
+# Show the surface of chain F, with a probeRadius of 2 to hide any holes.
+surface /F probeRadius 2
+show /F surface
+color /F white
+
+# Color epitope A on the chains
+color /A:131,140,145,157,165,167,189,196,201,205,219,220,221,229,244 #EF6F6A
+color /C:131,140,145,157,165,167,189,196,201,205,219,220,221,229,244 #EF6F6A
+color /E:131,140,145,157,165,167,189,196,201,205,219,220,221,229,244 #EF6F6A
+
+# Save the image with a transparent background and a high resolution.
+# save H3_escape_sites.png supersample 3 transparentBackground true height 3000 width 3000
