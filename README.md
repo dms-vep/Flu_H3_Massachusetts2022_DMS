@@ -1,5 +1,5 @@
 # Pseudovirus deep mutational scanning of A/Massachusetts/18/2022 (H3N2) hemagglutinin
-Study by Timothy Yu and Jesse Bloom.
+Study by Timothy Yu and Jesse Bloom. See [Yu et al (2025)](https://www.biorxiv.org/content/10.1101/2025.05.24.655919v1) for details on the study.
 
 This repo contains data and code from deep mutational scanning experiments on H3 hemagglutinin.
 

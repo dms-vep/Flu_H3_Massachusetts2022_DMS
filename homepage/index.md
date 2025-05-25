@@ -26,7 +26,7 @@ features:
 ## Overview
 This site hosts interactive visualizations from deep mutational scanning experiments that measure the effects of mutations to the HA of A/Massachusetts/18/2022 (H3N2) influenza virus. Clicking on the links in the boxes above will take you to pages that access the visualizations.
 
-This work was performed in the [Bloom lab](https://jbloomlab.org/). To read the paper that describes the results, see [Yu et al (2025)]().
+This work was performed in the [Bloom lab](https://jbloomlab.org/). To read the paper that describes the results, see [Yu et al (2025)](https://www.biorxiv.org/content/10.1101/2025.05.24.655919v1).
 
 Note that the experiments were performed using [pseudovirus deep mutational scanning](https://doi.org/10.1016/j.cell.2023.02.001). These pseudoviruses encode no viral genes other than HA, and so can only undergo a **single** round of cell entry. These pseudoviruses are therefore not infectious agents and are not disease-causing pathogens, and so provide a safe way to study HA mutations at biosafety-level 2.
 
