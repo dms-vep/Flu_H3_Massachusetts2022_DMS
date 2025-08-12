@@ -14,7 +14,7 @@ set bgColor white
 
 # Use silhouettes
 graphics silhouettes true
-graphics silhouettes width 1
+graphics silhouettes width 1.5
 
 # If you want to show cartoons, can adjust the width and thickness.
 cartoon style width 1.5 thickness 1.5
@@ -40,12 +40,29 @@ hide /F surface
 # Open the .defattr file we made earlier with the mean effects of mutations.
 open stability_mean_stateI.defattr
 
+# Color the cartoon gray by default
+color /A gray
+color /C gray
+
 # Color the surface of the protein by the mean effects of mutations. Can adjust the domain or the colors used.
 color byattr r:stability /A,C target c palette -0.4,#00441B:0,white:1,white
+color byattribute r:stability /A,C target a palette -0.4,#00441B:0,white:1,white
 
 transparency /C 70 target s
 
+hide /C surfaces
+show /J:MAN
+show /J:BMA
+show /J:NAG
+show /C:165 atoms
+
+style /J:MAN stick
+style /J:BMA stick
+style /J:NAG stick
+
+color /J #E7BA52
+
+transparency /J 0 target a
+
 # Save the image with a transparent background and a high resolution.
 # save MA22_stability_mean.png supersample 3 transparentBackground true height 3000 width 3000
-
-# select /A:130-250 /C:162-169 /C:241-248 /C:201-213

@@ -1,0 +1,66 @@
+# open PDB file
+open 6Y5H
+
+# setup the view so cartoons look nicer, and hide everything to start from scratch.
+preset cartoons/nucleotides licorice/ovals
+hide atoms
+hide cartoon
+
+lighting qualityOfShadows finer
+graphics quality 4
+lighting flat
+set bgColor white
+
+graphics silhouettes true
+graphics silhouettes width 3
+
+cartoon style width 1.5 thickness 1.5
+
+surface /A probeRadius 2
+hide /A surfaces
+show /A cartoons
+
+show /B cartoons
+hide /B surfaces
+
+surface /C probeRadius 2
+show /C surfaces
+color /C #D6D6CE
+
+surface /D probeRadius 2
+show /D surfaces
+color /D #BABDBC
+
+surface /E probeRadius 2
+show /E surfaces
+color /E #D6D6CE
+
+surface /F probeRadius 2
+show /F surfaces
+color /F #BABDBC
+
+open stability_mean_stateI.defattr
+
+# Color the cartoon gray by default
+color /A gray
+color /B gray
+
+color byattribute r:stability /A target c palette -0.4,#00441B:0,white:1,white
+color byattribute r:stability /B target c palette -0.4,#40004B:0,white:1,white
+
+transparency 10 target s
+
+show /A:89
+show /A:109
+show /A:269
+show /B:67
+
+hide /C surfaces
+hide /F surfaces
+hide /E surfaces
+hide /D surfaces
+
+color byattribute r:stability /A target a palette -0.4,#00441B:0,white:1,white
+color byattribute r:stability /B target a palette -0.4,#40004B:0,white:1,white
+
+# save salt_bridge.png supersample 3 transparentBackground true height 3000 width 3000

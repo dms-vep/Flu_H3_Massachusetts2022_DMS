@@ -46,6 +46,10 @@ color /F #BABDBC surface
 # Open the .defattr file we made earlier with the mean effects of mutations.
 open stability_mean_stateI.defattr
 
+# Color the cartoon gray by default
+color /A gray
+color /B gray
+
 # Color the surface of the protein by the mean effects of mutations. Can adjust the domain or the colors used.
 color byattr r:stability /A target c palette -0.4,#00441B:0,white:1,white
 color byattr r:stability /B target c palette -0.4,#40004B:0,white:1,white

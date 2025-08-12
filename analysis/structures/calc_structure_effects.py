@@ -69,8 +69,10 @@ def aggregate_mean(infile, name, outfile, chain_mapping):
                 effect_value = tmp_df.loc[
                     tmp_df['site'] == site, effect[name]
                 ].values
-                effect_value = effect_value[0] if len(effect_value) > 0 else 0
-                f.write(f'\t/{chain_id}:{residue}\t{effect_value:.6f}\n')
+                # effect_value = effect_value[0] if len(effect_value) > 0 else 0
+                if len(effect_value) > 0:
+                    effect_value = effect_value[0]
+                    f.write(f'\t/{chain_id}:{residue}\t{effect_value:.6f}\n')
 
 # Define the chain mappings
 
