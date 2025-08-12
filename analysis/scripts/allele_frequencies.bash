@@ -40,7 +40,8 @@ python3 auspice_tree_to_table.py \
     --include-internal-nodes \
     --tree ../data/nextstrain_h3n2_ha_12y/h3n2_ha_12y_nextstrain.json \
     --output-metadata ../data/nextstrain_h3n2_ha_12y/h3n2_ha_12y_nextstrain.tsv \
-    --output-tree ../data/nextstrain_h3n2_ha_12y/h3n2_ha_12y_nextstrain.nwk
+    --output-tree ../data/nextstrain_h3n2_ha_12y/h3n2_ha_12y_nextstrain.nwk \
+    --attributes accession_ha haplotype mutations
 
 python allele_frequencies.py \
     --tree_file ../data/nextstrain_h3n2_ha_12y/h3n2_ha_12y_nextstrain.nwk \
