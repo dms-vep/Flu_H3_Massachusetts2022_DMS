@@ -80,3 +80,5 @@ node_modules/
 !homepage/.vitepress/
 homepage/.vitepress/cache/
 homepage/.vitepress/dist/
+
+sra_upload/ftp_password.txt
