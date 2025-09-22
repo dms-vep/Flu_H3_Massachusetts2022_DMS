@@ -1,0 +1,59 @@
+# ======================================================== #
+#                                                          #
+#     Edit the information in this configuration file      #
+#                                                          #
+# ======================================================== #
+
+# ====== Info applying to the whole variant library ====== #
+organism: Influenza H3N2
+strain: A/Massachusetts/18/2022
+isolation_source: MDCK-SIAT1
+collection_date: 2025
+geographic_location: 'USA: Washington'
+sample_type: DNA amplicon
+
+# ======== Info for Illumina barcodes BioSamples ======== #
+barcode_runs: 
+  
+  # Path to the barcoded runs csv file that will go into the BioSample
+  file_path: ../data/barcode_runs.csv
+  
+  # Edit this data that goes into the SRA metadata table for the BioSample
+  accession: SAMN51424477
+  sample_id_columns: [sample]
+  title_prefix: A/Massachusetts/18/2022(H3N2) HA DMS Illumina barcode sequencing  
+  description: Illumina barcode sequencing A/Massachusetts/18/2022(H3N2) HA
+  strategy: AMPLICON
+  source: SYNTHETIC
+  selection: PCR
+  layout: single
+  platform: ILLUMINA
+  model: Illumina NovaSeq X
+
+  # Meaningful BioSample specific folder name for FTP upload
+  ftp_subfolder: Massachusetts2022_HA_DMS_barcodes
+
+# =========== Info for uploading to SRA via FTP =========== #
+# These come from the SRA FTP upload instructions.
+ftp_username: subftp
+ftp_account_folder: uploads/timcyu_uw.edu_DkM0zBoc
+
+# ========== Info for PacBio library BioSample ========== #
+pacbio_runs:
+  
+  # Path to the pacbio runs that will be included in the BioSample
+  file_path: ../data/PacBio_runs.csv
+ 
+  # This data goes into the SRA metadata table
+  accession: SAMN51504917
+  title_prefix: PacBio CCSs linking variants to barcodes for A/Massachusetts/18/2022(H3N2) HA deep mutational scanning
+  description: Genomes from infection with VSV-G pseuodotyped libraries
+  strategy: Synthetic-Long-Read
+  source: SYNTHETIC
+  selection: Restriction Digest
+  layout: single
+  platform: PACBIO_SMRT
+  model: Sequel II
+
+  # Meaningful BioSample specific folder name for FTP upload
+  ftp_subfolder: Massachusetts2022_HA_DMS_PacBio_CCSs
